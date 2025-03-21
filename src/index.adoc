@@ -58,6 +58,7 @@ icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role
 
 [.timeline]
 ====
+[.experience-title]
 ### DevOps Expert - Observability Engineer chez APSIDE
 
 [horizontal]
@@ -75,6 +76,7 @@ Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"
 * Préparation à la certification Grafana Solution Architect
 * Intérêt pour l'intelligence artificielle
 * Conférencier sur le sujet de l'observabilité Google Developer Group
+--
 
 [.card-title]
 *Technologies et compétences:*
@@ -87,11 +89,11 @@ Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"
 |[.tag]#FastAPI# |[.tag]#Grafana# |[.tag]#Automatisation#
 |[.tag]#Java 23# |[.tag]#QuickWit# |
 |===
---
 ====
 
 [.timeline]
 ====
+[.experience-title]
 ### Administrateur Dynatrace - Lead intégrateur - Assurance chez COVEA
 
 [horizontal]
@@ -117,6 +119,7 @@ Période:: icon:calendar[] `Mars 2023` - icon:calendar-check-o[] `Mars 2024`
 * Intégration et optimisation des Logs à chaud vers la solution Dynatrace
 * Accompagnement technique et fonctionnel des équipes d'intégrateurs sur la solution Dynatrace
 * Rédaction d'une documentation des différentes phases de l'onBoarding d'une application COVEA vers la solution Dynatrace
+--
 
 [.card-title]
 *Technologies et compétences:*
@@ -129,11 +132,11 @@ Période:: icon:calendar[] `Mars 2023` - icon:calendar-check-o[] `Mars 2024`
 |[.tag]#Documentation technique# |[.tag]#AppDynamics# |
 |[.tag]#OpenShift/Kubernetes# |[.tag]#Zabbix# |
 |===
---
 ====
 
 [.timeline]
 ====
+[.experience-title]
 ### Analyse développeur - DevOps chez MICROTEC
 
 [horizontal]
@@ -153,6 +156,7 @@ Période:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
 * Configuration de règles sous Traefik Ingress, gestion d'un registre interne, gestion des données, et mise en place d'un pipeline CI/CD
 * Acquisition de compétences en matière d'optimisation et de bonnes pratiques, en particulier en ce qui concerne la sécurisation du cluster Kubernetes et l'assurance de sa haute disponibilité
 * Conception et développement d'outils internes et de serveurs de test pour améliorer l'efficacité et la performance des opérations
+--
 
 [.card-title]
 *Technologies et compétences:*
@@ -165,11 +169,11 @@ Période:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
 |[.tag]#Support client / technique# |[.tag]#Traefik# |
 |[.tag]#Kubernetes / K3S# | |
 |===
---
 ====
 
 [.timeline]
 ====
+[.experience-title]
 ### DevOps / Infrastructure chez Geovelo - La compagnie des mobilités
 
 [horizontal]
@@ -192,6 +196,7 @@ Période:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
 * Déploiement de différents frontend Angular via Traefik
 * Déploiement de structure de calculateur d'itinéraire et geocodage
 * Mise en place d'orchestration Docker Swarm puis migration vers cluster Kubernetes managé ScaleWay - Pipeline GitlabCI
+--
 
 [.card-title]
 *Technologies - Languages:*
@@ -204,11 +209,11 @@ Période:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
 |[.tag]#Nginx# |[.tag]#Go (docker API) - Bash – Python - Angular# |
 |[.tag]#Terraform# |[.tag]#Cloud provider - Scaleway# |
 |===
---
 ====
 
 [.timeline]
 ====
+[.experience-title]
 ### Développeur / Gestion de projet chez CMRP/Selfone
 
 [horizontal]
@@ -228,6 +233,7 @@ Période:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
 * Hotline dans les domaines de la Téléphonie IP, des Serveurs, infrastructure et de Fournisseur d'accès internet
 * Développement de script bash d'automatisation de redémarrage de session distantes via telnet
 * Installation physique et logiciel de serveurs / Virtualisation de machines client
+--
 
 [.card-title]
 *Technologies - Rôles - Languages:*
@@ -240,7 +246,6 @@ Période:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
 |[.tag]#Hotline technique# |[.tag]#Telnet# |
 |[.tag]#Proxmox# |[.tag]#PHP 7# |
 |===
---
 ====
 
 ## [.section-header]#icon:graduation-cap[] Formation#
