@@ -112,6 +112,47 @@ li {
     display: none;
 }
 
+/* Table styles for profile */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+table.tableblock {
+    background-color: #f8f9fa;
+}
+
+table.tableblock tr:nth-child(even) {
+    background-color: #f0f2f5;
+}
+
+table.tableblock td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+table.tableblock a {
+    color: #333;
+    text-decoration: none;
+}
+
+table.tableblock a:hover {
+    text-decoration: underline;
+}
+
+/* Icon styles */
+.icon {
+    margin-right: 5px;
+}
+
 /* Print styles */
 @media print {
     body {
@@ -133,5 +174,13 @@ li {
     
     .tech-tags {
         font-size: 9pt;
+    }
+    
+    table.tableblock {
+        background-color: transparent;
+    }
+    
+    table.tableblock tr:nth-child(even) {
+        background-color: transparent;
     }
 } 

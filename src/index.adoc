@@ -24,34 +24,34 @@ v2.0, 2024-03-21
 :stem:
 :header-footer: true
 
-[.lead.text-center]
-EXPERT DEVOPS ENGINEER - OBSERVABILITY ADMIN
-
-[.intro.text-center]
-====
-Ce Curriculum Vitae a été réalisé en format HTML5 grâce à AsciiDoctor - Github Actions - Github Pages
-====
+++++
+<div class="cv-header">
+  <h1>ROY BAPTISTE</h1>
+  <h2>EXPERT DEVOPS ENGINEER - OBSERVABILITY ADMIN</h2>
+  <div class="cv-contact">10 passage Contreau - Le Mans | roy.baptiste45@gmail.com <a href="https://www.linkedin.com/in/roy-baptiste/" target="_blank">roy-baptiste</a> | Permis B</div>
+</div>
+++++
 
 [#profil-personnel]
 == icon:user[] Profil Personnel
 
-[.card.profile]
---
-[cols="1,4", grid=none, frame=none]
+[cols="1,3", options="header", grid=all, frame=none, stripes=even, width=100%]
 |===
-|*Qui-suis-je?* | Baptiste ROY - 20/08/1990
+|Qui-suis-je? |Baptiste ROY - 20/08/1990
 
-|*Contacts & Réseaux sociaux* a| 
-icon:envelope[] mailto:{email}[E-Mail {email}, role="external", window="_blank"] |
-icon:github[] https://github.com/roybaptiste[Github roybaptiste, role="external", window="_blank"] |
-icon:twitter[] https://twitter.com/BaptisteRoy37[@BaptisteRoy37, role="external", window="_blank"] |
-icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role="external", window="_blank"]
+|Contacts & Réseaux sociaux 
+a|icon:envelope[] <a href="mailto:roy.baptiste45@gmail.com">E-Mail roy.baptiste45@gmail.com</a>
 
-|*Location* | 10 passage Contreau Le Mans
+icon:github[] <a href="https://github.com/roybaptiste">Github roybaptiste</a>
 
-|*Phone* | +33(0)6 63 15 30 15
+icon:twitter[] <a href="https://twitter.com/BaptisteRoy37">@BaptisteRoy37</a>
+
+icon:linkedin[] <a href="https://www.linkedin.com/in/roy-baptiste/">Linkedin Profile</a>
+
+|Location |10 passage Contreau Le Mans
+
+|Phone |+33(0)6 63 15 30 15
 |===
---
 
 [#experience-professionnelle]
 == icon:briefcase[] Expérience Professionnelle
