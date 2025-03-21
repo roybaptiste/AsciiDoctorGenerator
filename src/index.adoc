@@ -40,13 +40,13 @@ v2.0, 2024-03-21
 |Qui-suis-je? |Baptiste ROY - 20/08/1990
 
 |Contacts & Réseaux sociaux 
-a|icon:envelope[] <a href="mailto:roy.baptiste45@gmail.com">E-Mail roy.baptiste45@gmail.com</a>
+a|icon:envelope[] mailto:roy.baptiste45@gmail.com[E-Mail roy.baptiste45@gmail.com, role="external", window="_blank"] 
 
-icon:github[] <a href="https://github.com/roybaptiste">Github roybaptiste</a>
+icon:github[] https://github.com/roybaptiste[Github roybaptiste, role="external", window="_blank"] 
 
-icon:twitter[] <a href="https://twitter.com/BaptisteRoy37">@BaptisteRoy37</a>
+icon:twitter[] https://twitter.com/BaptisteRoy37[@BaptisteRoy37, role="external", window="_blank"] 
 
-icon:linkedin[] <a href="https://www.linkedin.com/in/roy-baptiste/">Linkedin Profile</a>
+icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role="external", window="_blank"] 
 
 |Location |10 passage Contreau Le Mans
 
@@ -80,17 +80,29 @@ Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"
 *Technologies et compétences:*
 
 [.tech-tags]
+[.columns.tech-columns]
+=====
+[.column]
+--
 * [.tag.highlight]#Python#
 * [.tag]#React#
 * [.tag]#FastAPI#
 * [.tag]#Java 23#
+--
+[.column]
+--
 * [.tag]#Quarkus#
 * [.tag.highlight]#OpenTelemetry#
 * [.tag.highlight]#Grafana#
 * [.tag]#QuickWit#
+--
+[.column]
+--
 * [.tag]#Examplars / Mimir#
 * [.tag]#Harness / Gitness#
 * [.tag]#Automatisation#
+--
+=====
 --
 ====
 
@@ -126,16 +138,28 @@ Période:: icon:calendar[] `Mars 2023` - icon:calendar-check-o[] `Mars 2024`
 *Technologies et compétences:*
 
 [.tech-tags]
+[.columns.tech-columns]
+=====
+[.column]
+--
 * [.tag]#Dynatrace#
 * [.tag]#Ansible#
 * [.tag]#Documentation technique#
 * [.tag]#OpenShift/Kubernetes#
+--
+[.column]
+--
 * [.tag]#Python#
 * [.tag]#MonAco#
 * [.tag]#AppDynamics#
 * [.tag]#Zabbix#
+--
+[.column]
+--
 * [.tag]#Splunk#
 * [.tag]#Automatisation#
+--
+=====
 --
 ====
 
@@ -165,13 +189,22 @@ Période:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
 *Technologies et compétences:*
 
 [.tech-tags]
+[.columns.tech-columns]
+=====
+[.column]
+--
 * [.tag]#Pascal / Delphi#
 * [.tag]#Firebird#
 * [.tag]#Support client / technique#
 * [.tag]#Kubernetes / K3S#
+--
+[.column]
+--
 * [.tag]#Ansible#
 * [.tag]#Pipeline CI/CD#
 * [.tag]#Traefik#
+--
+=====
 --
 ====
 
@@ -204,14 +237,23 @@ Période:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
 *Technologies - Languages:*
 
 [.tech-tags]
+[.columns.tech-columns]
+=====
+[.column]
+--
 * [.tag]#Docker / Compose#
 * [.tag]#Kubernetes - Swarm - Traefik#
 * [.tag]#Nginx#
 * [.tag]#Terraform#
+--
+[.column]
+--
 * [.tag]#Gitlab CI – Travis#
 * [.tag]#Debian#
 * [.tag]#Go (docker API) - Bash – Python - Angular#
 * [.tag]#Cloud provider - Scaleway#
+--
+=====
 --
 ====
 
@@ -241,14 +283,23 @@ Période:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
 *Technologies - Rôles - Languages:*
 
 [.tech-tags]
+[.columns.tech-columns]
+=====
+[.column]
+--
 * [.tag]#Help Desk#
 * [.tag]#Interventions technique#
 * [.tag]#Hotline technique#
 * [.tag]#Proxmox#
+--
+[.column]
+--
 * [.tag]#Réseau entreprise#
 * [.tag]#Android - Java – Bash - PHP - HTML - CSS#
 * [.tag]#Telnet#
 * [.tag]#PHP 7#
+--
+=====
 --
 ====
 

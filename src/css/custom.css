@@ -89,11 +89,27 @@ li {
 
 /* Tags */
 .tech-tags {
-    display: flex;
-    flex-wrap: wrap;
     margin-bottom: 15px;
     font-size: 12px;
     font-weight: bold;
+}
+
+/* Technology Columns */
+.columns.tech-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.columns.tech-columns .column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.columns.tech-columns .tag {
+    display: block;
+    margin-bottom: 5px;
 }
 
 /* Education */
@@ -182,5 +198,9 @@ table.tableblock a:hover {
     
     table.tableblock tr:nth-child(even) {
         background-color: transparent;
+    }
+    
+    .columns.tech-columns {
+        page-break-inside: avoid;
     }
 } 
