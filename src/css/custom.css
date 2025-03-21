@@ -1,338 +1,137 @@
 /* CV Custom Styles for Baptiste ROY */
 
-/* Global Variables and Base */
-:root {
-    --main-color: #4B6A88;
-    --second-color: #44546A;
-    --third-color: #3C4A5A;
-    --light-color: #EEF1F5;
-    --accent-color: #5c8eb9;
-    --text-color: #333333;
-    --light-text: #6b7c8c;
-    --card-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    --transition: all 0.3s ease;
-    --border-radius: 6px;
-    --tag-bg: #edf2f7;
-    --highlight-color: #ffeb3b;
-}
-
-/* Base Styles */
-html {
-    scroll-behavior: smooth;
+/* Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: var(--text-color);
-    background-color: #f5f7fa;
-    margin: 0;
+    color: #333;
+    background-color: #fff;
+    max-width: 21cm;
+    margin: 0 auto;
     padding: 0;
 }
 
-/* Main Content and Sidebar */
-#header {
-    background-color: var(--main-color);
-    color: white;
-    padding: 2rem;
+/* Header Styles */
+.cv-header {
     text-align: center;
-    border-bottom: 5px solid var(--accent-color);
-    position: relative;
-    overflow: hidden;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
 }
 
-#header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: 700;
+.cv-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-#header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
-    pointer-events: none;
+.cv-header h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: none;
 }
 
+.cv-contact {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.cv-contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* TOC Styles */
 #toc {
-    border-right: 1px solid #e2e8f0;
-    background-color: white;
-    padding-top: 2rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    display: none;
 }
 
-#toc a {
-    color: var(--second-color);
-    border-left: 3px solid transparent;
-    transition: var(--transition);
-    padding: 0.7rem 1rem;
-    display: block;
-    margin-bottom: 0.25rem;
-}
-
-#toc a:hover, #toc a.active {
-    border-left: 3px solid var(--accent-color);
-    background-color: var(--light-color);
-    color: var(--main-color);
-}
-
-#content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-/* Section Headers */
+/* Section Styles */
 h2 {
-    color: var(--main-color);
-    border-bottom: 2px solid var(--accent-color);
-    padding-bottom: 0.7rem;
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
 }
 
-h2 i.fa, h2 .icon {
-    margin-right: 0.5rem;
-    color: var(--accent-color);
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-/* Introduction */
-.lead {
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: var(--main-color);
-    margin: 1.5rem 0;
+/* Experience Section */
+.period {
+    text-align: right;
+    font-size: 14px;
+    margin-top: -25px;
+    margin-bottom: 10px;
 }
 
-.text-center {
-    text-align: center;
+/* List Styles */
+ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
-.intro {
-    background-color: white;
-    border-left: 4px solid var(--accent-color);
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    border-radius: var(--border-radius);
-    box-shadow: var(--card-shadow);
+li {
+    font-size: 13px;
+    margin-bottom: 5px;
 }
 
-/* Cards */
-.card {
-    background-color: white;
-    border-radius: var(--border-radius);
-    box-shadow: var(--card-shadow);
-    margin-bottom: 1.5rem;
-    overflow: hidden;
-    transition: var(--transition);
-    padding: 1.5rem;
-}
-
-.card:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
-    transform: translateY(-3px);
-}
-
-.card.profile {
-    border-top: 4px solid var(--accent-color);
-}
-
-.card-title {
-    color: var(--main-color);
-    font-weight: 600;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid var(--light-color);
-    padding-bottom: 0.5rem;
-}
-
-.card-title:first-child {
-    margin-top: 0;
-}
-
-.card-content {
-    padding-left: 1rem;
-}
-
-/* Tables */
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table.grid-none td {
-    padding: 0.7rem;
-}
-
-table.stripes-even tr:nth-child(even) {
-    background-color: var(--light-color);
-}
-
-/* Experience Timeline */
-.timeline {
-    position: relative;
-    margin: 2rem 0;
-}
-
-.timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 1.5rem;
-    height: 100%;
-    width: 3px;
-    background-color: var(--light-color);
-    z-index: 0;
-}
-
-.timeline h3 {
-    position: relative;
-    margin-left: 3.5rem;
-    margin-bottom: 1rem;
-    color: var(--main-color);
-    font-weight: 600;
-}
-
-.timeline h3::before {
-    content: '';
-    position: absolute;
-    left: -2.5rem;
-    top: 0.25rem;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    background-color: var(--accent-color);
-    z-index: 1;
-}
-
-.experience {
-    margin-left: 3.5rem;
-    margin-bottom: 2.5rem;
-}
-
-/* Horizontal definition lists */
-.hdlist table {
-    width: 100%;
-}
-
-.hdlist td.hdlist1 {
-    font-weight: 600;
-    vertical-align: top;
-    padding-right: 1rem;
-    color: var(--light-text);
-    width: 30%;
-}
-
-/* Technology Tags */
+/* Tags */
 .tech-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 1rem;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
-.tag {
-    background-color: var(--tag-bg);
-    color: var(--second-color);
-    padding: 0.3rem 0.7rem;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    display: inline-block;
-    transition: var(--transition);
-}
-
-.tag:hover {
-    background-color: var(--accent-color);
-    color: white;
-    transform: scale(1.05);
-}
-
-.tag.highlight {
-    background-color: var(--accent-color);
-    color: white;
-}
-
-/* Education Section */
+/* Education */
 .education {
-    padding: 1.5rem;
+    margin-left: 20px;
+    font-size: 13px;
 }
 
-/* Skills and Interests */
-.columns {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 2rem;
-}
-
-.column {
-    flex: 1;
-}
-
-.skills, .interests {
-    height: 100%;
-}
-
-.skills.border {
-    border-left: 3px solid var(--accent-color);
-}
-
-/* Icon styles */
-.accent, [role="accent"] {
-    color: var(--accent-color);
+/* Languages */
+.languages li, .computer-skills li {
+    font-size: 13px;
 }
 
 /* Footer */
 .footer {
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 3rem;
-    border-top: 1px solid var(--light-color);
-    color: var(--light-text);
-    font-size: 0.9rem;
+    display: none;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .columns {
-        flex-direction: column;
-    }
-    
-    .timeline h3, .experience {
-        margin-left: 2rem;
-    }
-    
-    .hdlist td.hdlist1 {
-        width: 40%;
-    }
-}
-
-/* Print Styles */
+/* Print styles */
 @media print {
     body {
-        background-color: white;
+        font-size: 10pt;
+        line-height: 1.4;
     }
     
-    #toc {
-        display: none;
+    h2 {
+        font-size: 12pt;
     }
     
-    .card:hover {
-        transform: none;
-        box-shadow: none;
+    h3 {
+        font-size: 11pt;
     }
     
-    #content {
-        padding: 0;
+    li {
+        font-size: 10pt;
     }
     
-    .tag:hover {
-        transform: none;
+    .tech-tags {
+        font-size: 9pt;
     }
 } 
