@@ -55,6 +55,20 @@ jobs:
           echo "HTML Generation Time: ${{ steps.adocbuild.outputs.time }}"
           echo "PDF Generation Time: ${{ steps.pdfbuild.outputs.time }}"
 
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: cv-pdf
+          path: dist/cv-roy-baptiste.pdf
+          retention-days: 7
+
+      - name: Upload HTML as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: cv-html
+          path: dist/index.html
+          retention-days: 7
+
   #    - name: Deploy docs to ghpages
   #      uses: peaceiris/actions-gh-pages@v3
   #      with:
