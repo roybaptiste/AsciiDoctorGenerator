@@ -46,7 +46,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: roybaptiste/roybaptiste.github.io
-          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          token: ${{ secrets.PAGES_IO_DEPLOY }}
 
       - name: Download build artifacts
         uses: actions/download-artifact@v4
@@ -56,15 +56,13 @@ jobs:
 
       - name: Prepare cv directory
         run: |
-          mkdir -p cv/css cv/images
+          mkdir -p cv
           cp downloaded-artifacts/index.html cv/index.html
-          cp -r downloaded-artifacts/css/* cv/css/ || true
-          cp -r downloaded-artifacts/images/* cv/images/ || true
 
-      - name: Commit and push to target repository
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add cv
-          git commit -m "Update CV from AsciiDoctorGenerator" || true
-          git push
+    #  - name: Commit and push to target repository
+    #    run: |
+    #      git config user.name "GitHub Actions"
+    #      git config user.email "actions@github.com"
+    #      git add cv
+    #      git commit -m "Update CV from AsciiDoctorGenerator" || true
+    #      git push
