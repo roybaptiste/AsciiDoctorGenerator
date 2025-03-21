@@ -59,7 +59,7 @@ icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role
 [.timeline]
 ====
 [.experience-title]
-### DevOps Expert - Observability Engineer chez APSIDE
+DevOps Expert - Observability Engineer chez APSIDE
 
 [horizontal]
 Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"] `Actuel`
@@ -94,7 +94,7 @@ Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"
 [.timeline]
 ====
 [.experience-title]
-### Administrateur Dynatrace - Lead intégrateur - Assurance chez COVEA
+Administrateur Dynatrace - Lead intégrateur - Assurance chez COVEA
 
 [horizontal]
 Période:: icon:calendar[] `Mars 2023` - icon:calendar-check-o[] `Mars 2024`
@@ -137,7 +137,7 @@ Période:: icon:calendar[] `Mars 2023` - icon:calendar-check-o[] `Mars 2024`
 [.timeline]
 ====
 [.experience-title]
-### Analyse développeur - DevOps chez MICROTEC
+Analyse développeur - DevOps chez MICROTEC
 
 [horizontal]
 Période:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
@@ -174,7 +174,7 @@ Période:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
 [.timeline]
 ====
 [.experience-title]
-### DevOps / Infrastructure chez Geovelo - La compagnie des mobilités
+DevOps / Infrastructure chez Geovelo - La compagnie des mobilités
 
 [horizontal]
 Période:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
@@ -214,7 +214,7 @@ Période:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
 [.timeline]
 ====
 [.experience-title]
-### Développeur / Gestion de projet chez CMRP/Selfone
+Développeur / Gestion de projet chez CMRP/Selfone
 
 [horizontal]
 Période:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
@@ -252,7 +252,7 @@ Période:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
 
 [.card.education]
 ====
-### BTS Service Informatique et aux Organisations
+BTS Service Informatique et aux Organisations
 
 [horizontal]
 Diplôme:: icon:graduation-cap[] Obtenu en `2015`
