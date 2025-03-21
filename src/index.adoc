@@ -1,0 +1,292 @@
+# Curriculum Vitae | Baptiste ROY
+Baptiste ROY
+v2.0, 2024-03-18
+:icons: font
+:email: roy.baptiste45@gmail.com
+:sectlinks:
+:imagesdir: ./images/
+:data-uri:
+:doctype: article
+:toc: left
+:toclevels: 2
+:experimental:
+:source-highlighter: highlightjs
+:stylesdir: css
+:stylesheet: custom.css
+:linkattrs:
+:sectanchors:
+:favicon: favicon.ico
+:main-color: #4B6A88
+:second-color: #44546A
+:third-color: #3C4A5A
+
+[.lead]
+Ingénieur DevOps - Observabilité - Infrastructure
+
+[.intro]
+====
+Ce Curriculum Vitae a été réalisé en format HTML grâce à AsciiDoctor - Travis - Github Pages - Docker
+====
+
+## [.section-header]#icon:user[] Profil Personnel#
+
+[.card]
+====
+[.card-block]
+--
+[horizontal]
+Qui-suis-je?:: Baptiste ROY - icon:birthday-cake[] `20/08/1990`
+
+Contacts & Réseaux sociaux:: link:mailto:{email}[icon:envelope[] E-Mail `{email}`]
+  | link:https://github.com/roybaptiste[icon:github[] Github `roybaptiste`,window="_blank"]
+  | link:https://twitter.com/BaptisteRoy37[icon:twitter[] `@BaptisteRoy37`,window="_blank"]
+  | link:https://www.linkedin.com/in/roy-baptiste/[icon:linkedin[] Linkedin Profile,window="_blank"]
+
+Location:: icon:map-marker[] `10 passage Contreau Le Mans` image:fr.png[width=15]
+
+Phone:: icon:phone[] `+33(0)6 63 15 30 15`
+--
+====
+
+## [.section-header]#icon:briefcase[] Expérience Professionnelle#
+
+[.timeline]
+====
+### IDE - DevOps Expert - Observability Engineer chez APS
+
+[horizontal]
+Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[] `Actuel`
+
+[.card.experience]
+--
+[.card-title]
+*Description et responsabilités:*
+
+[.card-content]
+* Réalisation d'une plateforme de démonstration d'observabilité (React/Python - FastAPI/Java - Quarkus)
+* Mise en place d'une stack OSS OpenTelemetry / OpenTelemetry Exporter / QuickWit / Grafana
+* Automatisation du déploiement de Harness OpenSource (Gitness) - Pipelines
+* Préparation à la certification Grafana Solution Architect
+* Intérêt pour l'intelligence artificielle
+* Conférencier sur le sujet de l'observabilité Google Developer Group
+
+[.card-title]
+*Technologies et compétences:*
+
+[.tech-tags]
+* [.tag]#Python#
+* [.tag]#React#
+* [.tag]#FastAPI#
+* [.tag]#Java 23#
+* [.tag]#Quarkus#
+* [.tag]#OpenTelemetry#
+* [.tag]#Grafana#
+* [.tag]#QuickWit#
+* [.tag]#Examplars / Mimir#
+* [.tag]#Harness / Gitness#
+* [.tag]#Automatisation#
+--
+====
+
+[.timeline]
+====
+### Administrateur Dynatrace - Lead intégrateur - Assurance chez COVEA
+
+[horizontal]
+Période:: icon:calendar[] `Mars 2024` - icon:calendar-check-o[] `Mars 2025`
+
+[.card.experience]
+--
+[.card-title]
+*Description et responsabilités:*
+
+[.card-content]
+* Mise en place de l'observabilité sur un environnement Kubernetes (OpenShift) / BareBone - VM sur différentes technologies (Java/Wildfly..)
+* Interfaçage avec les solutions d'observabilité (AppDynamics/Zabbix) et d'hypervision (Splunk) vers incidentologie (ServiceNow)
+* Décommissionnement des composants applicatifs et optimisation
+* Analyse des besoins et évolution de la standardisation et mise en place de règles de la solution
+* Animation/Lead sur les réunions associées au pilote d'activité face aux équipes métiers et intégrateurs
+* Compréhension des différents environnements et adoption des règles spécifiques au métier
+* Rédaction de guides aux utilisateurs / Moteur sur l'adoption de la solution
+* Réflexion et réalisation d'une solution d'automatisation de déploiement d'onBoarding Python
+* Réalisation de playbooks Ansible d'automation d'actions
+* Utilisation et réalisation de règles d'automatisation IaC via MonAco
+* Théorisation et mise en place des Service Level Objectives (SLO)
+* Intégration et optimisation des Logs à chaud vers la solution Dynatrace
+* Accompagnement technique et fonctionnel des équipes d'intégrateurs sur la solution Dynatrace
+* Rédaction d'une documentation des différentes phases de l'onBoarding d'une application COVEA vers la solution Dynatrace
+
+[.card-title]
+*Technologies et compétences:*
+
+[.tech-tags]
+* [.tag]#Dynatrace#
+* [.tag]#Ansible#
+* [.tag]#Documentation technique#
+* [.tag]#OpenShift/Kubernetes#
+* [.tag]#Python#
+* [.tag]#MonAco#
+* [.tag]#AppDynamics#
+* [.tag]#Zabbix#
+* [.tag]#Splunk#
+* [.tag]#Automatisation#
+--
+====
+
+[.timeline]
+====
+### Analyse développeur - DevOps chez MICROTEC
+
+[horizontal]
+Période:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
+
+[.card.experience]
+--
+[.card-title]
+*Description et responsabilités:*
+
+[.card-content]
+* Responsable de la conception et du déploiement de nouveaux modules et améliorations Delphi / Firebird
+* Fourniture d'un support de niveau 3 pour la solution Optima, comprenant un support téléphonique et la gestion des tickets pour résoudre les anomalies
+* Création de demandes et gestion des retours clients pour garantir la satisfaction et la résolution efficace des problèmes
+* Rédaction de documentation technique détaillée et de procédures de résolution pour assurer une meilleure compréhension des systèmes et des processus
+* Mise en place d'un cluster Kubernetes sous K3S avec déploiement automatisé via Ansible
+* Configuration de règles sous Traefik Ingress, gestion d'un registre interne, gestion des données, et mise en place d'un pipeline CI/CD
+* Acquisition de compétences en matière d'optimisation et de bonnes pratiques, en particulier en ce qui concerne la sécurisation du cluster Kubernetes et l'assurance de sa haute disponibilité
+* Conception et développement d'outils internes et de serveurs de test pour améliorer l'efficacité et la performance des opérations
+
+[.card-title]
+*Technologies et compétences:*
+
+[.tech-tags]
+* [.tag]#Pascal / Delphi#
+* [.tag]#Firebird#
+* [.tag]#Support client / technique#
+* [.tag]#Kubernetes / K3S#
+* [.tag]#Ansible#
+* [.tag]#Pipeline CI/CD#
+* [.tag]#Traefik#
+--
+====
+
+[.timeline]
+====
+### DevOps / Infrastructure chez Geovelo - La compagnie des mobilités
+
+[horizontal]
+Période:: icon:calendar[] `2018` - icon:calendar-check-o[] `12/2019`
+
+[.card.experience]
+--
+[.card-title]
+*Description DevOps - Infrastructure logiciel:*
+
+[.card-content]
+* Adaptation et optimisation de services monolitiques en microservices avec des containeurs Docker
+* Automatisation de la production vers un déploiement continu et résilient en collaboration avec l'équipe de développeurs et S.I.G
+* Déploiement d'une solution de cartographie (geovelo.fr)
+* Déploiement de base de données géographiques OpenstreetMap sous PostgreSQL
+* Optimisation de reverse proxy Nginx (configuration et mise en cache) avec gestion des sites statiques sous service Node/Angular
+* Déploiement de différents frontend Angular via Traefik
+* Déploiement de structure de calculateur d'itinéraire et geocodage
+
+[.card-title]
+*Technologies - Languages:*
+
+[.tech-tags]
+* [.tag]#Docker / Compose#
+* [.tag]#Kubernetes - Swarm - Traefik#
+* [.tag]#Nginx#
+* [.tag]#Terraform#
+* [.tag]#Gitlab CI – Travis#
+* [.tag]#Debian#
+* [.tag]#Go (docker API) - Bash – Python - Angular#
+--
+====
+
+[.timeline]
+====
+### Développeur / Gestion de projet chez CMRP
+
+[horizontal]
+Période:: icon:calendar[] `2015` - icon:calendar-check-o[] `2017`
+
+[.card.experience]
+--
+[.card-title]
+*Description Développeur / Gestion de projet:*
+
+[.card-content]
+* Développement d'application mobile Android (Selfone et Crédit Agricole)
+* Développement et déploiement de Site Internet et de CMS Wordpress
+* Compréhension des besoins client / Rédaction de spécifications fonctionnelles et techniques
+* Participation à l'adoption de méthode agile au sein de l'entreprise / Gestion d'équipes et développeurs
+* Intervention technique à distance et sur parc client
+* Hotline dans les domaines de la Téléphonie IP, des Serveurs, infrastructure et de Fournisseur d'accès internet
+* Développement de script bash d'automatisation de redémarrage de session distantes via telnet
+* Installation physique et logiciel de serveurs / Virtualisation de machines client
+
+[.card-title]
+*Technologies - Rôles - Languages:*
+
+[.tech-tags]
+* [.tag]#Help Desk#
+* [.tag]#Interventions technique#
+* [.tag]#Hotline technique#
+* [.tag]#Proxmox#
+* [.tag]#Réseau entreprise#
+* [.tag]#Android - Java – Bash - PHP - HTML - CSS#
+--
+====
+
+## [.section-header]#icon:graduation-cap[] Formation#
+
+[.card.education]
+====
+### BTS Service Informatique et aux Organisations
+
+[horizontal]
+Diplôme:: icon:graduation-cap[] Obtenu en `2015`
+--
+====
+
+## [.section-header]#icon:cogs[] Compétences#
+
+[.columns]
+=====
+[.column]
+--
+[.card.skills]
+====
+### icon:language[] Langues
+
+[horizontal]
+Français:: [.stars]#★★★★★# (Natif)
+Anglais:: [.stars]#★★★★☆# (Technique)
+Espagnol:: [.stars]#★★☆☆☆# (Notions)
+====
+--
+
+[.column]
+--
+[.card.interests]
+====
+### icon:heart[] Centre d'intêret
+
+* [.interest]#Veille technologique#
+* [.interest]#Domotique#
+* [.interest]#Windows / Linux / Debian / Mac#
+* [.interest]#Conférences IT#
+* [.interest]#Jeux en réseau#
+* [.interest]#VTT#
+* [.interest]#Lecture#
+  ** [.book]#Clean Code#
+  ** [.book]#The Phoenix Project (DevOps)#
+====
+--
+=====
+
+[.footer]
+--
+© 2024 Baptiste ROY - CV généré avec AsciiDoctor
+--

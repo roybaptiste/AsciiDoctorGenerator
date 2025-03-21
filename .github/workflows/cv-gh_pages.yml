@@ -1,0 +1,64 @@
+name: Test CV Generation
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+env:
+  REPOSITORY_NAME: AsciiDoctorGenerator
+  REPOSITORY_OWNER: roybaptiste
+  OWNER_NAME: "Baptiste Roy"
+  SHORT_OWNER_NAME: "roy-baptiste"
+  CV_URL: https://roybaptiste.github.io/cv
+  SOURCE_URL: https://github.com/roybaptiste/AsciiDoctorGenerator
+  ASCIIDOCTOR_VERSION: "1.83"
+
+jobs:
+  adoc_build:
+    runs-on: ubuntu-latest
+    name: asciidoctor -D dist --backend=html5 -o index.html -a toc2 src/index.adoc
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Copy required resources
+        run: |
+          # Créer les sous-dossiers nécessaires
+          mkdir -p dist/images dist/css
+          
+          # Copier les images
+          cp -r src/images/* dist/images/ || true
+          
+          # Copier le CSS
+          cp src/css/custom.css dist/css/ || true
+
+      - name: Generate HTML
+        id: adocbuild
+        uses: tonynv/asciidoctor-action@master
+        with:
+          program: "asciidoctor -D dist --backend=html5 -o index.html -a toc2 src/index.adoc"
+
+      - name: Generate PDF
+        id: pdfbuild
+        uses: tonynv/asciidoctor-action@master
+        with:
+          program: "asciidoctor-pdf -D dist -o cv-roy-baptiste.pdf src/index.adoc"
+
+      - name: Print execution time
+        run: |
+          echo "HTML Generation Time: ${{ steps.adocbuild.outputs.time }}"
+          echo "PDF Generation Time: ${{ steps.pdfbuild.outputs.time }}"
+
+      - name: Deploy docs to ghpages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_branch: gh-pages
+          publish_dir: ./dist
+          commit_message: "docs: Mise à jour du CV [skip ci]" 
