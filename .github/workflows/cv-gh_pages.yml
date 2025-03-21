@@ -1,4 +1,4 @@
-name: Test CV Generation
+name: CV Generation and Deployment
 
 on:
   push:
@@ -8,75 +8,47 @@ on:
   workflow_dispatch:
 
 env:
-  REPOSITORY_NAME: AsciiDoctorGenerator
   REPOSITORY_OWNER: roybaptiste
-  OWNER_NAME: "Baptiste Roy"
   SHORT_OWNER_NAME: "roy-baptiste"
-  CV_URL: https://roybaptiste.github.io/cv
-  SOURCE_URL: https://github.com/roybaptiste/AsciiDoctorGenerator
-  ASCIIDOCTOR_VERSION: "1.83"
 
 jobs:
-  adoc_build:
+  build_and_deploy:
     runs-on: ubuntu-latest
-    name: asciidoctor -D dist --backend=html5 -o index.html -a toc2 src/index.adoc
+    name: Build & Deploy CV
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Create dist directory
-        run: mkdir -p dist
-
-      - name: Copy required resources
+      - name: Create dist directory and copy resources
         run: |
-          # Créer les sous-dossiers nécessaires
           mkdir -p dist/images dist/css
-          
-          # Copier les images
           cp -r src/images/* dist/images/ || true
-          
-          # Copier le CSS
           cp src/css/custom.css dist/css/ || true
 
       - name: Generate HTML
-        id: adocbuild
         uses: tonynv/asciidoctor-action@master
         with:
           program: "asciidoctor -D dist --backend=html5 -o index.html -a toc2 src/index.adoc"
 
-      - name: Generate PDF
-        id: pdfbuild
-        uses: tonynv/asciidoctor-action@master
+      - name: Checkout target repository
+        uses: actions/checkout@v3
         with:
-          program: "asciidoctor-pdf -D dist -o cv-roy-baptiste.pdf src/index.adoc"
+          repository: roybaptiste/roybaptiste.github.io
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          path: gh-pages
 
-      - name: Print execution time
+      - name: Prepare cv directory in target repo
         run: |
-          echo "HTML Generation Time: ${{ steps.adocbuild.outputs.time }}"
-          echo "PDF Generation Time: ${{ steps.pdfbuild.outputs.time }}"
+          mkdir -p gh-pages/cv/css gh-pages/cv/images
+          cp dist/index.html gh-pages/cv/index.html
+          cp -r dist/css/* gh-pages/cv/css/ || true
+          cp -r dist/images/* gh-pages/cv/images/ || true
 
-      - name: Upload PDF as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: cv-pdf
-          path: dist/cv-roy-baptiste.pdf
-          retention-days: 7
-          if-no-files-found: error
-          compression-level: 0
-
-      - name: Upload HTML as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: cv-html
-          path: dist/index.html
-          retention-days: 7
-          if-no-files-found: error
-          compression-level: 0
-
-  #    - name: Deploy docs to ghpages
-  #      uses: peaceiris/actions-gh-pages@v3
-  #      with:
-  #        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-  #        publish_branch: gh-pages
-  #        publish_dir: ./dist
-  #        commit_message: "docs: Mise à jour du CV [skip ci]" 
+      - name: Commit and push to target repository
+        run: |
+          cd gh-pages
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add cv
+          git commit -m "Update CV from AsciiDoctorGenerator" || true
+          git push
