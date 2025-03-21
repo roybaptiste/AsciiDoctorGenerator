@@ -247,7 +247,6 @@ Période:: icon:calendar[] `2015` - icon:calendar-check-o[] `2017`
 
 [horizontal]
 Diplôme:: icon:graduation-cap[] Obtenu en `2015`
---
 ====
 
 ## [.section-header]#icon:cogs[] Compétences#
