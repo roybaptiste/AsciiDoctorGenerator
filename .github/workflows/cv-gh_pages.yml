@@ -56,18 +56,22 @@ jobs:
           echo "PDF Generation Time: ${{ steps.pdfbuild.outputs.time }}"
 
       - name: Upload PDF as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: cv-pdf
           path: dist/cv-roy-baptiste.pdf
           retention-days: 7
+          if-no-files-found: error
+          compression-level: 0
 
       - name: Upload HTML as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: cv-html
           path: dist/index.html
           retention-days: 7
+          if-no-files-found: error
+          compression-level: 0
 
   #    - name: Deploy docs to ghpages
   #      uses: peaceiris/actions-gh-pages@v3
