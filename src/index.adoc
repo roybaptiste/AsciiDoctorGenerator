@@ -80,29 +80,13 @@ Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"
 *Technologies et compétences:*
 
 [.tech-tags]
-[.columns.tech-columns]
-=====
-[.column]
---
-* [.tag.highlight]#Python#
-* [.tag]#React#
-* [.tag]#FastAPI#
-* [.tag]#Java 23#
---
-[.column]
---
-* [.tag]#Quarkus#
-* [.tag.highlight]#OpenTelemetry#
-* [.tag.highlight]#Grafana#
-* [.tag]#QuickWit#
---
-[.column]
---
-* [.tag]#Examplars / Mimir#
-* [.tag]#Harness / Gitness#
-* [.tag]#Automatisation#
---
-=====
+[cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
+|===
+|[.tag]#Python# |[.tag]#Quarkus# |[.tag]#Examplars / Mimir#
+|[.tag]#React# |[.tag]#OpenTelemetry# |[.tag]#Harness / Gitness#
+|[.tag]#FastAPI# |[.tag]#Grafana# |[.tag]#Automatisation#
+|[.tag]#Java 23# |[.tag]#QuickWit# |
+|===
 --
 ====
 
@@ -138,28 +122,13 @@ Période:: icon:calendar[] `Mars 2023` - icon:calendar-check-o[] `Mars 2024`
 *Technologies et compétences:*
 
 [.tech-tags]
-[.columns.tech-columns]
-=====
-[.column]
---
-* [.tag]#Dynatrace#
-* [.tag]#Ansible#
-* [.tag]#Documentation technique#
-* [.tag]#OpenShift/Kubernetes#
---
-[.column]
---
-* [.tag]#Python#
-* [.tag]#MonAco#
-* [.tag]#AppDynamics#
-* [.tag]#Zabbix#
---
-[.column]
---
-* [.tag]#Splunk#
-* [.tag]#Automatisation#
---
-=====
+[cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
+|===
+|[.tag]#Dynatrace# |[.tag]#Python# |[.tag]#Splunk#
+|[.tag]#Ansible# |[.tag]#MonAco# |[.tag]#Automatisation#
+|[.tag]#Documentation technique# |[.tag]#AppDynamics# |
+|[.tag]#OpenShift/Kubernetes# |[.tag]#Zabbix# |
+|===
 --
 ====
 
@@ -189,22 +158,13 @@ Période:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
 *Technologies et compétences:*
 
 [.tech-tags]
-[.columns.tech-columns]
-=====
-[.column]
---
-* [.tag]#Pascal / Delphi#
-* [.tag]#Firebird#
-* [.tag]#Support client / technique#
-* [.tag]#Kubernetes / K3S#
---
-[.column]
---
-* [.tag]#Ansible#
-* [.tag]#Pipeline CI/CD#
-* [.tag]#Traefik#
---
-=====
+[cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
+|===
+|[.tag]#Pascal / Delphi# |[.tag]#Ansible# |
+|[.tag]#Firebird# |[.tag]#Pipeline CI/CD# |
+|[.tag]#Support client / technique# |[.tag]#Traefik# |
+|[.tag]#Kubernetes / K3S# | |
+|===
 --
 ====
 
@@ -237,23 +197,13 @@ Période:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
 *Technologies - Languages:*
 
 [.tech-tags]
-[.columns.tech-columns]
-=====
-[.column]
---
-* [.tag]#Docker / Compose#
-* [.tag]#Kubernetes - Swarm - Traefik#
-* [.tag]#Nginx#
-* [.tag]#Terraform#
---
-[.column]
---
-* [.tag]#Gitlab CI – Travis#
-* [.tag]#Debian#
-* [.tag]#Go (docker API) - Bash – Python - Angular#
-* [.tag]#Cloud provider - Scaleway#
---
-=====
+[cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
+|===
+|[.tag]#Docker / Compose# |[.tag]#Gitlab CI – Travis# |
+|[.tag]#Kubernetes - Swarm - Traefik# |[.tag]#Debian# |
+|[.tag]#Nginx# |[.tag]#Go (docker API) - Bash – Python - Angular# |
+|[.tag]#Terraform# |[.tag]#Cloud provider - Scaleway# |
+|===
 --
 ====
 
@@ -283,23 +233,13 @@ Période:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
 *Technologies - Rôles - Languages:*
 
 [.tech-tags]
-[.columns.tech-columns]
-=====
-[.column]
---
-* [.tag]#Help Desk#
-* [.tag]#Interventions technique#
-* [.tag]#Hotline technique#
-* [.tag]#Proxmox#
---
-[.column]
---
-* [.tag]#Réseau entreprise#
-* [.tag]#Android - Java – Bash - PHP - HTML - CSS#
-* [.tag]#Telnet#
-* [.tag]#PHP 7#
---
-=====
+[cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
+|===
+|[.tag]#Help Desk# |[.tag]#Réseau entreprise# |
+|[.tag]#Interventions technique# |[.tag]#Android - Java – Bash - PHP - HTML - CSS# |
+|[.tag]#Hotline technique# |[.tag]#Telnet# |
+|[.tag]#Proxmox# |[.tag]#PHP 7# |
+|===
 --
 ====
 

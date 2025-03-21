@@ -63,17 +63,25 @@ h2 {
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    color: #2c5aa0;
 }
 
 /* Experience Section */
 .period {
     text-align: right;
     font-size: 14px;
-    margin-top: -25px;
+    margin-top: -30px;
     margin-bottom: 10px;
+}
+
+/* Experience headers */
+.timeline h3 {
+    background-color: #f0f5ff;
+    padding: 5px 10px;
+    border-left: 3px solid #2c5aa0;
 }
 
 /* List Styles */
@@ -110,6 +118,43 @@ li {
 .columns.tech-columns .tag {
     display: block;
     margin-bottom: 5px;
+}
+
+/* Competence Table */
+table.competence-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    border: none;
+}
+
+table.competence-table td {
+    padding: 3px 8px;
+    vertical-align: top;
+    width: 33.33%;
+    border: none;
+    background: none;
+}
+
+table.competence-table .tag {
+    display: block;
+    margin-bottom: 5px;
+    background-color: #f5f5f5;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+/* Supprimer les bordures des tableaux de compétences */
+table.competence-table, 
+table.competence-table tr, 
+table.competence-table td, 
+table.competence-table th {
+    border: none !important;
+    border-width: 0 !important;
+    border-style: none !important;
+    border-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 /* Education */
@@ -181,7 +226,7 @@ table.tableblock a:hover {
     }
     
     h3 {
-        font-size: 11pt;
+        font-size: 14pt;
     }
     
     li {
@@ -192,7 +237,7 @@ table.tableblock a:hover {
         font-size: 9pt;
     }
     
-    table.tableblock {
+    table.tableblock, table.competence-table {
         background-color: transparent;
     }
     
