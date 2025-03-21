@@ -13,6 +13,7 @@
     --transition: all 0.3s ease;
     --border-radius: 6px;
     --tag-bg: #edf2f7;
+    --highlight-color: #ffeb3b;
 }
 
 /* Base Styles */
@@ -36,6 +37,8 @@ body {
     padding: 2rem;
     text-align: center;
     border-bottom: 5px solid var(--accent-color);
+    position: relative;
+    overflow: hidden;
 }
 
 #header h1 {
@@ -44,18 +47,31 @@ body {
     font-weight: 700;
 }
 
+#header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+    pointer-events: none;
+}
+
 #toc {
     border-right: 1px solid #e2e8f0;
     background-color: white;
     padding-top: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
 #toc a {
     color: var(--second-color);
     border-left: 3px solid transparent;
     transition: var(--transition);
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1rem;
     display: block;
+    margin-bottom: 0.25rem;
 }
 
 #toc a:hover, #toc a.active {
@@ -71,22 +87,32 @@ body {
 }
 
 /* Section Headers */
-.section-header {
+h2 {
     color: var(--main-color);
     border-bottom: 2px solid var(--accent-color);
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.7rem;
     margin-top: 2.5rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+h2 i.fa, h2 .icon {
+    margin-right: 0.5rem;
+    color: var(--accent-color);
 }
 
 /* Introduction */
 .lead {
     font-size: 1.4rem;
     font-weight: 500;
-    text-align: center;
-    margin: 1rem 0;
     color: var(--main-color);
+    margin: 1.5rem 0;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .intro {
@@ -96,7 +122,6 @@ body {
     margin: 1.5rem 0;
     border-radius: var(--border-radius);
     box-shadow: var(--card-shadow);
-    text-align: center;
 }
 
 /* Cards */
@@ -107,6 +132,7 @@ body {
     margin-bottom: 1.5rem;
     overflow: hidden;
     transition: var(--transition);
+    padding: 1.5rem;
 }
 
 .card:hover {
@@ -114,8 +140,8 @@ body {
     transform: translateY(-3px);
 }
 
-.card-block {
-    padding: 1.5rem;
+.card.profile {
+    border-top: 4px solid var(--accent-color);
 }
 
 .card-title {
@@ -133,6 +159,20 @@ body {
 
 .card-content {
     padding-left: 1rem;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.grid-none td {
+    padding: 0.7rem;
+}
+
+table.stripes-even tr:nth-child(even) {
+    background-color: var(--light-color);
 }
 
 /* Experience Timeline */
@@ -175,7 +215,6 @@ body {
 .experience {
     margin-left: 3.5rem;
     margin-bottom: 2.5rem;
-    padding: 1.5rem;
 }
 
 /* Horizontal definition lists */
@@ -215,6 +254,11 @@ body {
     transform: scale(1.05);
 }
 
+.tag.highlight {
+    background-color: var(--accent-color);
+    color: white;
+}
+
 /* Education Section */
 .education {
     padding: 1.5rem;
@@ -233,28 +277,15 @@ body {
 
 .skills, .interests {
     height: 100%;
-    padding: 1.5rem;
 }
 
-.stars {
+.skills.border {
+    border-left: 3px solid var(--accent-color);
+}
+
+/* Icon styles */
+.accent, [role="accent"] {
     color: var(--accent-color);
-    letter-spacing: 0.1rem;
-}
-
-.interest, .book {
-    position: relative;
-    padding-left: 1.5rem;
-}
-
-.interest::before {
-    content: '→';
-    position: absolute;
-    left: 0;
-    color: var(--accent-color);
-}
-
-.book {
-    color: var(--light-text);
 }
 
 /* Footer */
@@ -262,18 +293,19 @@ body {
     text-align: center;
     padding: 2rem 0;
     margin-top: 3rem;
-    color: var(--light-text);
     border-top: 1px solid var(--light-color);
+    color: var(--light-text);
+    font-size: 0.9rem;
 }
 
-/* Responsive Adjustments */
+/* Responsive */
 @media (max-width: 768px) {
     .columns {
         flex-direction: column;
     }
     
     .timeline h3, .experience {
-        margin-left: 2.5rem;
+        margin-left: 2rem;
     }
     
     .hdlist td.hdlist1 {
@@ -292,19 +324,15 @@ body {
     }
     
     .card:hover {
-        box-shadow: var(--card-shadow);
         transform: none;
+        box-shadow: none;
     }
     
     #content {
-        width: 100%;
-        max-width: 100%;
         padding: 0;
     }
     
     .tag:hover {
-        background-color: var(--tag-bg);
-        color: var(--second-color);
         transform: none;
     }
 } 

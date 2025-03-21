@@ -1,5 +1,6 @@
-# CV | Baptiste ROY
-v2.0, 2025-03-21
+= Curriculum Vitae | Baptiste ROY
+Baptiste ROY
+v2.0, 2024-03-21
 :icons: font
 :email: roy.baptiste45@gmail.com
 :sectlinks:
@@ -18,43 +19,49 @@ v2.0, 2025-03-21
 :main-color: #4B6A88
 :second-color: #44546A
 :third-color: #3C4A5A
+:table-stripes: even
+:icons-set: fas
+:stem:
+:header-footer: true
 
-[.lead]
+[.lead.text-center]
 EXPERT DEVOPS ENGINEER - OBSERVABILITY ADMIN
 
-[.intro]
+[.intro.text-center]
 ====
 Ce Curriculum Vitae a été réalisé en format HTML5 grâce à AsciiDoctor - Github Actions - Github Pages
 ====
 
-## [.section-header]#icon:user[] Profil Personnel#
+[#profil-personnel]
+== icon:user[] Profil Personnel
 
-[.card]
-====
-[.card-block]
+[.card.profile]
 --
-[horizontal]
-Qui-suis-je?:: Baptiste ROY - icon:birthday-cake[] `20/08/1990`
+[cols="1,4", grid=none, frame=none]
+|===
+|*Qui-suis-je?* | Baptiste ROY - 20/08/1990
 
-Contacts & Réseaux sociaux:: link:mailto:{email}[icon:envelope[] E-Mail `{email}`]
-  | link:https://github.com/roybaptiste[icon:github[] Github `roybaptiste`,window="_blank"]
-  | link:https://twitter.com/BaptisteRoy37[icon:twitter[] `@BaptisteRoy37`,window="_blank"]
-  | link:https://www.linkedin.com/in/roy-baptiste/[icon:linkedin[] Linkedin Profile,window="_blank"]
+|*Contacts & Réseaux sociaux* a| 
+icon:envelope[] mailto:{email}[E-Mail {email}, role="external", window="_blank"] |
+icon:github[] https://github.com/roybaptiste[Github roybaptiste, role="external", window="_blank"] |
+icon:twitter[] https://twitter.com/BaptisteRoy37[@BaptisteRoy37, role="external", window="_blank"] |
+icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role="external", window="_blank"]
 
-Location:: icon:map-marker[] `10 passage Contreau Le Mans` image:fr.png[width=15]
+|*Location* | 10 passage Contreau Le Mans
 
-Phone:: icon:phone[] `+33(0)6 63 15 30 15`
+|*Phone* | +33(0)6 63 15 30 15
+|===
 --
-====
 
-## [.section-header]#icon:briefcase[] Expérience Professionnelle#
+[#experience-professionnelle]
+== icon:briefcase[] Expérience Professionnelle
 
 [.timeline]
 ====
 ### DevOps Expert - Observability Engineer chez APSIDE
 
 [horizontal]
-Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[] `Actuel`
+Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"] `Actuel`
 
 [.card.experience]
 --
@@ -73,13 +80,13 @@ Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[] `Actuel`
 *Technologies et compétences:*
 
 [.tech-tags]
-* [.tag]#Python#
+* [.tag.highlight]#Python#
 * [.tag]#React#
 * [.tag]#FastAPI#
 * [.tag]#Java 23#
 * [.tag]#Quarkus#
-* [.tag]#OpenTelemetry#
-* [.tag]#Grafana#
+* [.tag.highlight]#OpenTelemetry#
+* [.tag.highlight]#Grafana#
 * [.tag]#QuickWit#
 * [.tag]#Examplars / Mimir#
 * [.tag]#Harness / Gitness#
@@ -255,7 +262,8 @@ Période:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
 Diplôme:: icon:graduation-cap[] Obtenu en `2015`
 ====
 
-## [.section-header]#icon:cogs[] Compétences#
+[#competences]
+== icon:cogs[] Compétences
 
 [.columns]
 =====
@@ -263,30 +271,34 @@ Diplôme:: icon:graduation-cap[] Obtenu en `2015`
 --
 [.card.skills]
 ====
-### icon:language[] Langues
+[discrete]
+=== Langues
 
-[horizontal]
-Français:: [.stars]#★★★★★# (Natif)
-Anglais:: [.stars]#★★★★☆# (Technique)
-Espagnol:: [.stars]#★★☆☆☆# (Notions)
+[cols="2,3", grid=rows, frame=none, stripes=even]
+|===
+|Français | icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] (Natif)
+|Anglais | icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star-o[role="accent"] (Technique)
+|Espagnol | icon:star[role="accent"] icon:star[role="accent"] icon:star-o[role="accent"] icon:star-o[role="accent"] icon:star-o[role="accent"] (Notions)
+|===
 ====
 --
 
 [.column]
 --
-[.card.interests]
+[.card.skills.border]
 ====
-### icon:heart[] Centre d'intêret
+[discrete]
+=== Centre d'intêret
 
-* [.interest]#Veille technologique#
-* [.interest]#Domotique#
-* [.interest]#Windows / Linux / Debian / Mac#
-* [.interest]#Conférences IT#
-* [.interest]#Jeux en réseau#
-* [.interest]#VTT#
-* [.interest]#Lecture#
-  ** [.book]#Clean Code#
-  ** [.book]#The Phoenix Project (DevOps)#
+* icon:search[] Veille technologique
+* icon:home[] Domotique
+* icon:desktop[] Windows / Linux / Debian / Mac
+* icon:users[] Conférences IT
+* icon:gamepad[] Jeux en réseau
+* icon:bicycle[] VTT
+* icon:book[] Lecture
+** Clean Code
+** The Phoenix Project (DevOps)
 ====
 --
 =====
