@@ -42,11 +42,16 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy to GitHub Pages
     steps:
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.1
+        with:
+          ssh-private-key: ${{ secrets.PAGES_IO_DEPLOY }}
+      
       - name: Checkout target repository
         uses: actions/checkout@v3
         with:
           repository: roybaptiste/roybaptiste.github.io
-          token: ${{ secrets.PAGES_IO_DEPLOY }}
+          ssh-key: ${{ secrets.PAGES_IO_DEPLOY }}
 
       - name: Download build artifacts
         uses: actions/download-artifact@v4
@@ -59,10 +64,10 @@ jobs:
           mkdir -p cv
           cp downloaded-artifacts/index.html cv/index.html
 
-    #  - name: Commit and push to target repository
-    #    run: |
-    #      git config user.name "GitHub Actions"
-    #      git config user.email "actions@github.com"
-    #      git add cv
-    #      git commit -m "Update CV from AsciiDoctorGenerator" || true
-    #      git push
+      - name: Commit and push to target repository
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add cv
+          git commit -m "Update CV from AsciiDoctorGenerator" || true
+          git push
