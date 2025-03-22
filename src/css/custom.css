@@ -282,12 +282,27 @@ table.tableblock a:hover {
     text-transform: uppercase;
 }
 
-/* Hide the document title but keep styles */
-#header h1 {
-    display: none;
+/* Masquer complètement l'en-tête du document */
+#header {
+    display: none !important;
 }
 
-/* Hidden title */
-h1.hidden-title {
-    display: none;
+#toc::before {
+    display: none !important;
+}
+
+/* S'assurer que ces titres sont également masqués */
+.hidden-title, 
+h1.hidden-title, 
+h1#hidden-title,
+#preamble .sectionbody .paragraph:first-child {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Empêcher l'affichage de toute information d'en-tête */
+#header .details {
+    display: none !important;
 } 
