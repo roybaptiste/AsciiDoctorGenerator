@@ -66,8 +66,9 @@ icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role
 
 [.timeline]
 ====
-[.experience-title]
-=== DevOps Expert - Observability Engineer chez APSIDE
+++++
+<div class="experience-title">DEVOPS EXPERT - OBSERVABILITY ENGINEER CHEZ APSIDE</div>
+++++
 
 [horizontal]
 Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"] `Actuel`
@@ -101,8 +102,9 @@ Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"
 
 [.timeline]
 ====
-[.experience-title]
-=== Administrateur Dynatrace - Lead intégrateur - Assurance chez COVEA
+++++
+<div class="experience-title">ADMINISTRATEUR DYNATRACE - LEAD INTÉGRATEUR - ASSURANCE CHEZ COVEA</div>
+++++
 
 [horizontal]
 Période:: icon:calendar[] `Mars 2023` - icon:calendar-check-o[] `Mars 2024`
@@ -144,8 +146,9 @@ Période:: icon:calendar[] `Mars 2023` - icon:calendar-check-o[] `Mars 2024`
 
 [.timeline]
 ====
-[.experience-title]
-=== Analyse développeur - DevOps chez MICROTEC
+++++
+<div class="experience-title">ANALYSE DÉVELOPPEUR - DEVOPS CHEZ MICROTEC</div>
+++++
 
 [horizontal]
 Période:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
@@ -181,8 +184,9 @@ Période:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
 
 [.timeline]
 ====
-[.experience-title]
-=== DevOps / Infrastructure chez Geovelo - La compagnie des mobilités
+++++
+<div class="experience-title">DEVOPS / INFRASTRUCTURE CHEZ GEOVELO - LA COMPAGNIE DES MOBILITÉS</div>
+++++
 
 [horizontal]
 Période:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
@@ -221,8 +225,9 @@ Période:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
 
 [.timeline]
 ====
-[.experience-title]
-=== Développeur / Gestion de projet chez CMRP/Selfone
+++++
+<div class="experience-title">DÉVELOPPEUR / GESTION DE PROJET CHEZ CMRP/SELFONE</div>
+++++
 
 [horizontal]
 Période:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
