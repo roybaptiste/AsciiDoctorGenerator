@@ -280,4 +280,14 @@ table.tableblock a:hover {
     border-left: 6px solid #1a56cc;
     margin-bottom: 15px;
     text-transform: uppercase;
+}
+
+/* Hide the document title but keep styles */
+#header h1 {
+    display: none;
+}
+
+/* Hidden title */
+h1.hidden-title {
+    display: none;
 } 

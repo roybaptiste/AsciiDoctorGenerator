@@ -1,5 +1,4 @@
-= Curriculum Vitae | Baptiste ROY
-Baptiste ROY
+= hidden-title
 :icons: font
 :email: roy.baptiste45@gmail.com
 :sectlinks:
@@ -22,6 +21,12 @@ Baptiste ROY
 :icons-set: fas
 :stem:
 :header-footer: true
+
+++++
+<div style="display:none">
+<h1>Curriculum Vitae | Baptiste ROY</h1>
+</div>
+++++
 
 [.lead.text-center]
 EXPERT DEVOPS ENGINEER - OBSERVABILITY ADMIN
