@@ -271,7 +271,11 @@ table.tableblock a:hover {
 }
 
 /* Experience title */
-.experience-title h3 {
+.timeline .sect3 > h3,
+.timeline h3.title,
+.experience-title > h3,
+.sect3 > h3,
+div.sect3 > h3 {
     font-size: 24px;
     font-weight: 800;
     color: #002266;
