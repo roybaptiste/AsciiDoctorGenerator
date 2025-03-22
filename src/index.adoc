@@ -1,5 +1,8 @@
-= 
+= Curriculum Vitae | Baptiste ROY
+Baptiste ROY
+v2.0, 2024-03-21
 :icons: font
+:email: roy.baptiste45@gmail.com
 :sectlinks:
 :imagesdir: ./images/
 :data-uri:
