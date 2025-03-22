@@ -4,7 +4,7 @@ Ce dépôt contient le code source de mon CV, généré dynamiquement à partir 
 
 ## 📄 À propos
 
-Mon CV est écrit en format AsciiDoc, qui permet une mise en forme riche et une maintenance facile. Il est ensuite converti en HTML et PDF à l'aide des outils AsciiDoctor, puis déployé automatiquement sur GitHub Pages.
+Mon CV est écrit en format AsciiDoc, qui permet une mise en forme riche et une maintenance facile. Il est ensuite converti en HTML à l'aide des outils AsciiDoctor, puis déployé automatiquement sur GitHub Pages.
 
 🔗 **Voir mon CV en ligne**: [https://roybaptiste.github.io/cv/](https://roybaptiste.github.io/cv/)
 
@@ -15,23 +15,13 @@ Mon CV est écrit en format AsciiDoc, qui permet une mise en forme riche et une 
 - **Construction**: Via Docker et AsciiDoctor
 - **Déploiement**: GitHub Actions vers GitHub Pages
 
-## 🔍 Caractéristiques du design
-
-Le CV a été conçu avec une attention particulière aux détails :
-
-- **Design responsive** : S'adapte aux différentes tailles d'écran
-- **Interface moderne** : Utilisation d'une palette de couleurs professionnelle
-- **Structure claire** : Organisation chronologique des expériences
-- **Mise en valeur des compétences** : Utilisation de tags pour identifier rapidement les technologies
-- **Sections bien définies** : Profil personnel, expériences professionnelles, compétences et centres d'intérêt
-
 ## 🚀 Processus de déploiement automatisé
-
+'
 Le déploiement est entièrement automatisé grâce à GitHub Actions:
 
 1. À chaque push sur la branche `main` (ou déclenchement manuel)
-2. Les conteneurs Docker génèrent les fichiers HTML et PDF
-3. Les fichiers générés sont déployés dans le dépôt GitHub Pages
+2. Les conteneurs Docker génèrent le fichier HTML
+3. Le fichiers générés sont déployés dans le dépôt GitHub Pages
 
 ### Configuration du déploiement
 
@@ -74,17 +64,6 @@ Pour mettre à jour le CV:
 4. Le workflow GitHub Actions se déclenchera automatiquement
 5. Vérifiez le résultat sur [https://roybaptiste.github.io/cv/](https://roybaptiste.github.io/cv/)
 
-> **Note:** Le fichier `src/index.adoc` contient une référence à `:imagesdir: ./images/` qui sera utilisée si vous ajoutez des images à votre CV.
-
-### Suppression de fichiers
-
-Si vous souhaitez supprimer des fichiers du CV déployé:
-
-1. Supprimez le fichier correspondant dans le dossier `src/`
-2. Commitez la suppression avec `git rm [nom-du-fichier]`
-3. Poussez les modifications
-4. GitHub Actions mettra à jour le site déployé en conséquence
-
 ## 📊 Structure du projet
 
 ```
@@ -100,15 +79,6 @@ AsciiDoctorGenerator/
 ├── docker-compose.yml         # Configuration Docker pour génération locale
 └── README.md                  # Documentation
 ```
-
-## 🔧 Personnalisation
-
-Le CV peut être facilement personnalisé :
-
-- Modifiez `src/index.adoc` pour changer le contenu et la structure
-- Ajustez `src/css/custom.css` pour personnaliser l'apparence
-- Utilisez les attributs AsciiDoc pour configurer le document
-- Pour ajouter des images, créez un dossier `src/images/` au besoin
 
 ## 📜 Licence
 
