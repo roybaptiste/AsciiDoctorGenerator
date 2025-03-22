@@ -5,7 +5,18 @@ on:
     branches:
       - main
       - master
+    paths:
+      - 'src/**'
+      - '.github/workflows/cv-gh_pages.yml'
   workflow_dispatch:
+    inputs:
+      deploy_message:
+        description: 'Message personnalisé pour le déploiement'
+        required: false
+        default: 'Update CV from AsciiDoctorGenerator'
+
+permissions:
+  contents: read
 
 env:
   REPOSITORY_OWNER: roybaptiste
@@ -17,7 +28,18 @@ jobs:
     name: Build CV
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up caching
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/asciidoctor
+          key: ${{ runner.os }}-asciidoctor-${{ hashFiles('src/**') }}
+          restore-keys: |
+            ${{ runner.os }}-asciidoctor-
 
       - name: Create dist directory and copy resources
         run: |
@@ -41,6 +63,11 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     name: Deploy to GitHub Pages
+    permissions:
+      contents: write
+    concurrency:
+      group: "pages"
+      cancel-in-progress: true
     steps:
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.9.1
@@ -48,10 +75,11 @@ jobs:
           ssh-private-key: ${{ secrets.PAGES_IO_DEPLOY }}
       
       - name: Checkout target repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          repository: roybaptiste/roybaptiste.github.io
+          repository: ${{ env.REPOSITORY_OWNER }}/${{ env.REPOSITORY_OWNER }}.github.io
           ssh-key: ${{ secrets.PAGES_IO_DEPLOY }}
+          fetch-depth: 1
 
       - name: Download build artifacts
         uses: actions/download-artifact@v4
@@ -62,12 +90,14 @@ jobs:
       - name: Prepare cv directory
         run: |
           mkdir -p cv
-          cp downloaded-artifacts/index.html cv/index.html
+          cp -r downloaded-artifacts/* cv/
+          rm -rf downloaded-artifacts
 
       - name: Commit and push to target repository
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add cv
-          git commit -m "Update CV from AsciiDoctorGenerator" || true
+          COMMIT_MESSAGE="${{ github.event.inputs.deploy_message || 'Update CV from AsciiDoctorGenerator' }}"
+          git commit -m "$COMMIT_MESSAGE" || echo "No changes to commit"
           git push
