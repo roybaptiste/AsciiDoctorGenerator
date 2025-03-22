@@ -271,11 +271,10 @@ table.tableblock a:hover {
 }
 
 /* Experience title */
-.timeline .sect3 > h3,
-.timeline h3.title,
-.experience-title > h3,
-.sect3 > h3,
-div.sect3 > h3 {
+.sect3,
+.sect3 .title,
+.timeline .sect3,
+.experience-title {
     font-size: 24px;
     font-weight: 800;
     color: #002266;
@@ -284,6 +283,7 @@ div.sect3 > h3 {
     border-left: 6px solid #1a56cc;
     margin-bottom: 15px;
     text-transform: uppercase;
+    display: block;
 }
 
 /* Masquer complètement l'en-tête du document */
