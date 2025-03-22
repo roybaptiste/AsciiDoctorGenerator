@@ -1,4 +1,4 @@
-= hidden-title
+= CV - Roy Baptiste
 :nofooter:
 :noheader:
 :icons: font
