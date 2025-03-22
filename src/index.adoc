@@ -4,7 +4,6 @@
 :icons: font
 :email: roy.baptiste45@gmail.com
 :sectlinks:
-:imagesdir: ./images/
 :data-uri:
 :doctype: article
 :toc: left
@@ -107,7 +106,7 @@ Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"
 ++++
 
 [horizontal]
-Période:: icon:calendar[] `Mars 2023` - icon:calendar-check-o[] `Mars 2024`
+Période:: icon:calendar[] `Mars 2024` - icon:calendar-check-o[] `Avril 2024`
 
 [.card.experience]
 --

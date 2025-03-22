@@ -43,8 +43,7 @@ jobs:
 
       - name: Create dist directory and copy resources
         run: |
-          mkdir -p dist/images dist/css
-          cp -r src/images/* dist/images/ || true
+          mkdir -p dist/css
           cp src/css/custom.css dist/css/ || true
 
       - name: Generate HTML
