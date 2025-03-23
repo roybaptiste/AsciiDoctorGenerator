@@ -4,7 +4,7 @@ Ce dépôt contient le code source de mon CV, généré dynamiquement à partir 
 
 ## 📄 À propos
 
-Mon CV est écrit en format AsciiDoc, qui permet une mise en forme riche et une maintenance facile. Il est ensuite converti en HTML à l'aide des outils AsciiDoctor, puis déployé automatiquement sur GitHub Pages.
+Mon CV est écrit en format AsciiDoc, qui permet de générer une page statique responsive ainsi qu'une maintenance facile. Il est ensuite converti en HTML à l'aide des outils AsciiDoctor, puis déployé automatiquement sur GitHub Pages.
 
 🔗 **Voir mon CV en ligne**: [https://roybaptiste.github.io/cv/](https://roybaptiste.github.io/cv/)
 
@@ -19,9 +19,9 @@ Mon CV est écrit en format AsciiDoc, qui permet une mise en forme riche et une 
 '
 Le déploiement est entièrement automatisé grâce à GitHub Actions:
 
-1. À chaque push sur la branche `main` (ou déclenchement manuel)
-2. Les conteneurs Docker génèrent le fichier HTML
-3. Le fichiers générés sont déployés dans le dépôt GitHub Pages
+1. À chaque push sur la branche `main` associé au `src/**` & `cv-gh_pages.yml`(ou déclenchement manuel)
+2. Le conteneur Docker génèrent le fichier HTML
+3. Le fichier généré est déployé dans le dépôt GitHub Pages
 
 ### Configuration du déploiement
 
@@ -41,9 +41,6 @@ Le workflow de déploiement est défini dans `.github/workflows/cv-gh_pages.yml`
 ### Génération locale du CV
 
 ```bash
-# Créer le dossier de sortie
-mkdir -p dist
-
 # Définir les variables d'environnement
 export CURRENT_UID=$(id -u):$(id -g)
 export CV_URL="https://roybaptiste.github.io/cv"
@@ -82,4 +79,4 @@ AsciiDoctorGenerator/
 
 ## 📜 Licence
 
-Ce projet est sous licence open source - voir le fichier [LICENSE](LICENSE) pour plus de détails. 
+Ce projet est sous licence [MIT](https://opensource.org/licenses/MIT).
