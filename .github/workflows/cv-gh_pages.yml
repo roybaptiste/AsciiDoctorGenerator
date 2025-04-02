@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       deploy_message:
-        description: 'Message personnalisé pour le déploiement'
+        description: 'Update CV from AsciiDoctorGenerator manually'
         required: false
         default: 'Update CV from AsciiDoctorGenerator'
 

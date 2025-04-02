@@ -260,7 +260,68 @@ Période:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
 |===
 ====
 
+[.timeline]
+====
+++++
+<div class="experience-title">ADMINISTRATEUR MULTIGAMING CHEZ TEAM FANTASY</div>
+++++
+
+[horizontal]
+Période:: icon:calendar[] `2014` - icon:calendar-check-o[] `2015`
+
+[.card.experience]
+--
+[.card-title]
+*Description et responsabilités:*
+
+[.card-content]
+* Administration, management et gestion de section (300 personnes) au sein d'une association multigaming de 2000 personnes
+* Création du site internet
+--
+
+[.card-title]
+*Technologies et compétences:*
+
+[.tech-tags]
+[cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
+|===
+|[.tag]#Gestion d'équipe# |[.tag]#Web développement# |
+|[.tag]#Community management# |[.tag]#Administration# |
+|===
+====
+
 ## [.section-header]#icon:graduation-cap[] Formation#
+
+[.card.education]
+====
+Dynatrace PowerUser - Formation officielle
+
+[horizontal]
+Formateur:: icon:user[] Ousmane DIALLO - Delivery Architect de Dynatrace
+Durée:: icon:clock-o[] 3 jours
+Date:: icon:calendar[] `2024`
+====
+
+[.card.education]
+====
+Dynatrace - Du concept à l'expertise
+
+[horizontal]
+Formateur:: icon:user[] Martin LEKPA - SPARKS
+Description:: icon:info-circle[] Formation réalisée en commun - Création d'une plateforme de parcours dédiée à l'observabilité
+Durée:: icon:clock-o[] 2 jours
+Date:: icon:calendar[] `2025`
+====
+
+[.card.education]
+====
+EMEA Grafana Partner BootCamp (international) - Formation officielle
+
+[horizontal]
+Formateur:: icon:user[] Naveen KUMAR
+Durée:: icon:clock-o[] 4 jours
+Date:: icon:calendar[] `2024`
+====
 
 [.card.education]
 ====
@@ -268,6 +329,26 @@ BTS Service Informatique et aux Organisations
 
 [horizontal]
 Diplôme:: icon:graduation-cap[] Obtenu en `2015`
+====
+
+[#conferences]
+== icon:microphone[] Conférencier
+
+[.card.conference]
+====
+"Ok boomer, arrête de surveiller ton infra" - Introduction détaillée au monitoring / observabilité
+
+[horizontal]
+Organisation:: icon:users[] Google Developer Group
+Lien:: icon:youtube[] https://www.youtube.com/watch?v=TO_BYULeOes[Voir la conférence, role="external", window="_blank"]
+====
+
+[.card.conference]
+====
+"OSS 404 : Le Mans ne répond plus" - Mise en place stack OpenSource OpenTelemetry/Grafana/Quickwit
+
+[horizontal]
+Statut:: icon:clock-o[] À venir
 ====
 
 [#competences]
