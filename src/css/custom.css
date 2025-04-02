@@ -285,6 +285,18 @@ table.tableblock a:hover {
     text-transform: uppercase;
 }
 
+/* Education title */
+.education-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0e2d5e;
+    background-color: #f0f5ff; 
+    padding: 8px 12px;
+    border-left: 5px solid #14294928;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
 /* Conference Section */
 .card.conference {
     margin-bottom: 20px;

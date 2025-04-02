@@ -292,19 +292,35 @@ Période:: icon:calendar[] `2014` - icon:calendar-check-o[] `2015`
 
 ## [.section-header]#icon:graduation-cap[] Formation#
 
-[.card.education]
+[.timeline]
 ====
-Dynatrace PowerUser - Formation officielle
+++++
+<div class="education-title">EMEA GRAFANA PARTNER BOOTCAMP (INTERNATIONAL) - FORMATION OFFICIELLE</div>
+++++
 
 [horizontal]
-Formateur:: icon:user[] Ousmane DIALLO - Delivery Architect de Dynatrace
+Formateur:: icon:user[] Naveen KUMAR
+Durée:: icon:clock-o[] 4 jours
+Date:: icon:calendar[] `2025`
+====
+
+[.timeline]
+====
+++++
+<div class="education-title">DYNATRACE POWERUSER - FORMATION OFFICIELLE</div>
+++++
+
+[horizontal]
+Formateur:: icon:user[] Ousmane DIALLO - Delivery Architect Dynatrace
 Durée:: icon:clock-o[] 3 jours
 Date:: icon:calendar[] `2024`
 ====
 
-[.card.education]
+[.timeline]
 ====
-Dynatrace - Du concept à l'expertise
+++++
+<div class="education-title">DYNATRACE - DU CONCEPT À L'EXPERTISE</div>
+++++
 
 [horizontal]
 Formateur:: icon:user[] Martin LEKPA - SPARKS
@@ -313,19 +329,11 @@ Durée:: icon:clock-o[] 2 jours
 Date:: icon:calendar[] `2025`
 ====
 
-[.card.education]
+[.timeline]
 ====
-EMEA Grafana Partner BootCamp (international) - Formation officielle
-
-[horizontal]
-Formateur:: icon:user[] Naveen KUMAR
-Durée:: icon:clock-o[] 4 jours
-Date:: icon:calendar[] `2024`
-====
-
-[.card.education]
-====
-BTS Service Informatique et aux Organisations
+++++
+<div class="education-title">BTS SERVICE INFORMATIQUE ET AUX ORGANISATIONS</div>
+++++
 
 [horizontal]
 Diplôme:: icon:graduation-cap[] Obtenu en `2015`
