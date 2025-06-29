@@ -6,22 +6,57 @@ services:
       - ./src:/documents
       - ./dist:/dist
 
-  html:
+  html-fr:
     <<: *asciidoctor-base
     command: >
-      asciidoctor /documents/index.adoc
+      asciidoctor /documents/fr/index.adoc
       -a cv-url="${CV_URL}"
       -a source-url="${SOURCE_URL}"
       -a short-owner-name="${SHORT_OWNER_NAME}"
       -a toc=left
       -a toclevels=2
-      -o /dist/index.html
+      -o /dist/cv/index.html
 
-  pdf:
+  html-en:
     <<: *asciidoctor-base
     command: >
-      asciidoctor-pdf /documents/index.adoc 
+      asciidoctor /documents/en/index.adoc
       -a cv-url="${CV_URL}"
       -a source-url="${SOURCE_URL}"
       -a short-owner-name="${SHORT_OWNER_NAME}"
-      -o /dist/cv-"${SHORT_OWNER_NAME}".pdf
+      -a toc=left
+      -a toclevels=2
+      -o /dist/en/index.html
+
+  pdf-fr:
+    <<: *asciidoctor-base
+    command: >
+      asciidoctor-pdf /documents/fr/index.adoc 
+      -a cv-url="${CV_URL}"
+      -a source-url="${SOURCE_URL}"
+      -a short-owner-name="${SHORT_OWNER_NAME}"
+      -o /dist/cv/cv-"${SHORT_OWNER_NAME}"-fr.pdf
+
+  pdf-en:
+    <<: *asciidoctor-base
+    command: >
+      asciidoctor-pdf /documents/en/index.adoc 
+      -a cv-url="${CV_URL}"
+      -a source-url="${SOURCE_URL}"
+      -a short-owner-name="${SHORT_OWNER_NAME}"
+      -o /dist/en/cv-"${SHORT_OWNER_NAME}"-en.pdf
+
+  copy-index:
+    <<: *asciidoctor-base
+    command: >
+      sh -c "cp /documents/index.html /dist/index.html"
+
+  copy-css-fr:
+    <<: *asciidoctor-base
+    command: >
+      sh -c "mkdir -p /dist/cv/css && cp /documents/fr/css/custom.css /dist/cv/css/custom.css"
+
+  copy-css-en:
+    <<: *asciidoctor-base
+    command: >
+      sh -c "mkdir -p /dist/en/css && cp /documents/en/css/custom.css /dist/en/css/custom.css"

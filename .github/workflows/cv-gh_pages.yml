@@ -7,6 +7,7 @@ on:
       - master
     paths:
       - 'src/**'
+      - 'docker-compose.yml'
       - '.github/workflows/cv-gh_pages.yml'
   workflow_dispatch:
     inputs:
@@ -25,31 +26,14 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build CV
+    name: Build CVs
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
 
-      - name: Set up caching
-        uses: actions/cache@v3
-        with:
-          path: |
-            ~/.cache/asciidoctor
-          key: ${{ runner.os }}-asciidoctor-${{ hashFiles('src/**') }}
-          restore-keys: |
-            ${{ runner.os }}-asciidoctor-
-
-      - name: Create dist directory and copy resources
+      - name: Build CVs with Docker Compose
         run: |
-          mkdir -p dist/css
-          cp src/css/custom.css dist/css/ || true
-
-      - name: Generate HTML
-        uses: tonynv/asciidoctor-action@master
-        with:
-          program: "asciidoctor -D dist --backend=html5 -o index.html -a toc2 src/index.adoc"
+          docker-compose up html-fr html-en pdf-fr pdf-en copy-index copy-css-fr copy-css-en
 
       - name: Upload CV artifacts
         uses: actions/upload-artifact@v4
@@ -84,19 +68,13 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: cv-build
-          path: downloaded-artifacts
-
-      - name: Prepare cv directory
-        run: |
-          mkdir -p cv
-          cp -r downloaded-artifacts/* cv/
-          rm -rf downloaded-artifacts
+          path: .
 
       - name: Commit and push to target repository
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add cv
+          git add .
           COMMIT_MESSAGE="${{ github.event.inputs.deploy_message || 'Update CV from AsciiDoctorGenerator' }}"
           git commit -m "$COMMIT_MESSAGE" || echo "No changes to commit"
           git push

@@ -206,7 +206,7 @@ Période:: icon:calendar[] `Mars 2024` - icon:calendar-check-o[] `Avril 2025`
 [.card-title]
 *Technologies et compétences:*
 
-[.tech-tags]
+[.tech-.tags]
 [cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
 |===
 |[.tag]#Dynatrace# |[.tag]#Python# |[.tag]#Splunk#

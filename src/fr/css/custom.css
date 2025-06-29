@@ -1,0 +1,382 @@
+/* CV Custom Styles for Baptiste ROY */
+
+/* Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    max-width: 21cm;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Header Styles */
+.cv-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cv-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cv-header h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.cv-contact {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.cv-contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* TOC Styles */
+#toc {
+    display: none;
+}
+
+/* Section Styles */
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2c5aa0;
+}
+
+/* Experience Section */
+.period {
+    text-align: right;
+    font-size: 14px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+/* Experience headers */
+.timeline h3 {
+    background-color: #f0f5ff;
+    padding: 10px 15px;
+    border-left: 5px solid #2c5aa0;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #0e2d5e;
+}
+
+/* List Styles */
+ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+li {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+/* Tags */
+.tech-tags {
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Technology Columns */
+.columns.tech-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.columns.tech-columns .column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.columns.tech-columns .tag {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Competence Table */
+table.competence-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    border: none;
+}
+
+table.competence-table td {
+    padding: 3px 8px;
+    vertical-align: top;
+    width: 33.33%;
+    border: none;
+    background: none;
+}
+
+table.competence-table .tag {
+    display: block;
+    margin-bottom: 5px;
+    background-color: #f5f5f5;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+/* Supprimer les bordures des tableaux de compétences */
+table.competence-table, 
+table.competence-table tr, 
+table.competence-table td, 
+table.competence-table th {
+    border: none !important;
+    border-width: 0 !important;
+    border-style: none !important;
+    border-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Education */
+.education {
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+/* Languages */
+.languages li, .computer-skills li {
+    font-size: 13px;
+}
+
+/* Footer */
+.footer {
+    display: none;
+}
+
+/* Table styles for profile */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+table.tableblock {
+    background-color: #f8f9fa;
+}
+
+table.tableblock tr:nth-child(even) {
+    background-color: #f0f2f5;
+}
+
+table.tableblock td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+table.tableblock a {
+    color: #333;
+    text-decoration: none;
+}
+
+table.tableblock a:hover {
+    text-decoration: underline;
+}
+
+/* Icon styles */
+.icon {
+    margin-right: 5px;
+}
+
+/* Print styles */
+@media print {
+    body {
+        font-size: 10pt;
+        line-height: 1.4;
+    }
+    
+    h2 {
+        font-size: 12pt;
+    }
+    
+    h3 {
+        font-size: 14pt;
+    }
+    
+    li {
+        font-size: 10pt;
+    }
+    
+    .tech-tags {
+        font-size: 9pt;
+    }
+    
+    table.tableblock, table.competence-table {
+        background-color: transparent;
+    }
+    
+    table.tableblock tr:nth-child(even) {
+        background-color: transparent;
+    }
+    
+    .columns.tech-columns {
+        page-break-inside: avoid;
+    }
+}
+
+/* Card title for Technologies et compétences */
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+/* Description et responsabilités */
+.card-content {
+    margin-bottom: 25px;
+}
+
+/* Experience title */
+.sect3,
+.sect3 .title,
+.timeline .sect3,
+.experience-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0e2d5e;
+    background-color: #f0f5ff; 
+    padding: 10px 15px;
+    border-left: 5px solid #14294928;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+/* Education title */
+.education-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0e2d5e;
+    background-color: #f0f5ff; 
+    padding: 8px 12px;
+    border-left: 5px solid #14294928;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Conference Section */
+.card.conference {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-left: 4px solid #2c5aa0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.card.conference .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0e2d5e;
+    margin-bottom: 10px;
+}
+
+.card.conference [horizontal] {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+.card.conference [horizontal]::before {
+    content: "";
+    display: block;
+    margin-bottom: 5px;
+}
+
+.card.conference a {
+    color: #2c5aa0;
+    text-decoration: none;
+}
+
+.card.conference a:hover {
+    text-decoration: underline;
+}
+
+/* Print styles for conferences */
+@media print {
+    .card.conference {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+}
+
+/* Masquer complètement l'en-tête du document */
+#header {
+    display: none !important;
+}
+
+#toc::before {
+    display: none !important;
+}
+
+/* S'assurer que ces titres sont également masqués */
+.hidden-title, 
+h1.hidden-title, 
+h1#hidden-title,
+#preamble .sectionbody .paragraph:first-child {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Empêcher l'affichage de toute information d'en-tête */
+#header .details {
+    display: none !important;
+}
+
+/* Language Switcher */
+.language-switcher {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+}
+
+.language-switcher a {
+    text-decoration: none;
+} 

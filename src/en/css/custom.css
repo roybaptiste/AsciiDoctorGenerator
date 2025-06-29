@@ -19,6 +19,7 @@ body {
 
 /* Header Styles */
 .cv-header {
+    position: relative;
     text-align: center;
     margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
@@ -366,4 +367,16 @@ h1#hidden-title,
 /* Empêcher l'affichage de toute information d'en-tête */
 #header .details {
     display: none !important;
+}
+
+/* Language Switcher */
+.language-switcher {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+}
+
+.language-switcher a {
+    text-decoration: none;
 } 
