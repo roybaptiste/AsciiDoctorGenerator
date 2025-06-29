@@ -35,7 +35,7 @@
 <div class="cv-header">
   <h1>ROY BAPTISTE</h1>
   <h2>EXPERT DEVOPS ENGINEER - OBSERVABILITY ADMIN</h2>
-  <div class="cv-contact">10 passage Contreau - Le Mans | roy.baptiste45@gmail.com <a href="https://www.linkedin.com/in/roy-baptiste/" target="_blank">roy-baptiste</a> | Permis B</div>
+  <div class="cv-contact">34 rue Landreloup - Orléans | roy.baptiste45@gmail.com <a href="https://www.linkedin.com/in/roy-baptiste/" target="_blank">roy-baptiste</a> | Permis B</div>
 </div>
 ++++
 
@@ -62,6 +62,79 @@ icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role
 
 [#experience-professionnelle]
 == icon:briefcase[] Expérience Professionnelle
+
+[.timeline]
+====
+++++
+<div class="experience-title">ARCHITECTE CONSEIL EN OBSERVABILITÉ - AGIRC-ARRCO (MISSION APSIDE)</div>
+++++
+
+[horizontal]
+Période:: icon:calendar[] `Juin 2025` - icon:calendar-check-o[role="accent"] `Juin 2025 (Intervention d'expertise)`
+
+[.card.experience]
+--
+[.card-title]
+*Description et responsabilités:*
+
+[.card-content]
+* **Audit et Conseil Stratégique :** Animation d'un audit de 2 jours sur site avec le client pour analyser la plateforme d'observabilité (PoC) et co-construire la feuille de route pour l'industrialisation.
+* **Définition de l'Architecture Cible :** Conception et formalisation d'une architecture OpenTelemetry à 3 niveaux (Agent, Collecteur DaemonSet, Gateway HA) pour garantir la scalabilité et la résilience.
+* **Expertise Technique Approfondie :** Pilotage des choix techniques (DaemonSet vs. Deployment), définition des stratégies de filtrage (sampling/tail sampling) et optimisation du backend Tempo et de ses composants (Ingester, Querier...).
+* **Implémentation de Fonctionnalités Avancées :** Mise en œuvre de l'intégration avancée Prometheus (`remote_write`, `exemplars`) / activation des **Service Graphs** dans Grafana et visualiser les dépendances applicatives.
+* **Sécurisation de la Plateforme :** Conception et déploiement de règles d'alerting (PrometheusRules) pour la surveillance active de la sécurité de la stack d'observabilité (accès, flux, etc.).
+* **Transfert de Compétences :** Livraison d'un dossier de fond sur l'architecture et l'optimisation, servant de référentiel technique pour l'industrialisation de la plateforme.
+
+--
+
+[.card-title]
+*Technologies et compétences:*
+
+[.tech-tags]
+[cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
+|===
+|[.tag]#OpenTelemetry (Collector, Operator)# |[.tag]#Grafana Tempo# |[.tag]#Architecture Distribuée#
+|[.tag]#Prometheus (Remote Write, OTLP)# |[.tag]#Kubernetes (DaemonSet, NetPol)# |[.tag]#Stratégie de Sampling#
+|[.tag]#Service Graphs & Exemplars# |[.tag]#Sécurité (JWT, PrometheusRules)# |[.tag]#Conseil & Stratégie#
+|[.tag]#MinIO# |[.tag]#IaC / GitOps# |[.tag]#Optimisation Performance#
+|===
+====
+
+[.timeline]
+====
+++++
+<div class="experience-title">EXPERT DEVOPS - ARCHITECTE / ADMINISTRATEUR On'PREM / CLOUD CHEZ PAYMED (MISSION APSIDE)</div>
+++++
+
+[horizontal]
+Période:: icon:calendar[] `Mai 2025` - icon:calendar-check-o[role="accent"] `Actuel`
+
+[.card.experience]
+--
+[.card-title]
+*Description et responsabilités:*
+
+[.card-content]
+* Pilotage de la plateforme Kubernetes (RKE2) multi-environnements :** administration, maintien en condition opérationnelle, résolution d'incidents et optimisation continue de la performance, de la sécurité et de la résilience.
+* Définition de la feuille de route technique : élaboration de dossiers d'architecture pour piloter les évolutions stratégiques (gouvernance, optimisation des coûts, nouvelles briques) et garantir l'alignement avec les objectifs métier.
+* Ingénierie de l'usine logicielle CI/CD : conception et mise en œuvre d'une chaîne d'outils complète (Tekton, ArgoCD, Harbor) pour automatiser et sécuriser l'ensemble du cycle de vie applicatif.
+* Accompagnement des équipes de développement : conseil en architecture logicielle et optimisation des performances applicatives au sein de l'écosystème Kubernetes.
+* Mise à jour de la documentation d'architecture et des procédures d'exploitation pour refléter les évolutions.
+
+--
+
+[.card-title]
+*Technologies et compétences:*
+
+[.tech-tags]
+[cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
+|===
+|[.tag]#Kubernetes / RKE2# |[.tag]#Gravitee# |[.tag]#IaC / GitOps#
+|[.tag]#Docker# |[.tag]#CloudNativePG (PostgreSQL)# |[.tag]#Haute Disponibilité#
+|[.tag]#RabbitMQ# |[.tag]#Longhorn# |[.tag]#Sécurité (WAF, NetPol)#
+|[.tag]#RHEL# |[.tag]#Nginx# |[.tag]#Architecture Microservices#
+|===
+====
 
 [.timeline]
 ====
@@ -102,11 +175,11 @@ Période:: icon:calendar[] `Février 2024` - icon:calendar-check-o[role="accent"
 [.timeline]
 ====
 ++++
-<div class="experience-title">ADMINISTRATEUR DYNATRACE - LEAD INTÉGRATEUR - ASSURANCE CHEZ COVEA</div>
+<div class="experience-title">ADMINISTRATEUR DYNATRACE - LEAD INTÉGRATEUR - ASSURANCE CHEZ COVEA (MISSION APSIDE)</div>
 ++++
 
 [horizontal]
-Période:: icon:calendar[] `Mars 2024` - icon:calendar-check-o[] `Avril 2024`
+Période:: icon:calendar[] `Mars 2024` - icon:calendar-check-o[] `Avril 2025`
 
 [.card.experience]
 --
