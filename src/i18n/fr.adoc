@@ -76,7 +76,7 @@
 * Automatisation du déploiement de Harness OpenSource (Gitness) - Pipelines \
 * Préparation à la certification Grafana Solution Architect \
 * Intérêt pour l'intelligence artificielle \
-* Conférencier sur le sujet de l'observabilité** Google Developer Group
+* Conférencier sur le sujet de l'observabilité Google Developer Group
 :exp3-tech-label: *Technologies et compétences:*
 :exp3-tech-1: Python
 :exp3-tech-2: Quarkus
@@ -109,7 +109,7 @@
 * Théorisation et mise en place des Service Level Objectives (SLO) \
 * Intégration et optimisation des Logs à chaud vers la solution Dynatrace \
 * Accompagnement technique et fonctionnel des équipes d'intégrateurs sur la solution Dynatrace \
-* Rédaction d'une documentation des différentes phases de l'onBoarding d'une application COVEA vers la solution Dynatrace**
+* Rédaction d'une documentation des différentes phases de l'onBoarding d'une application COVEA vers la solution Dynatrace
 :exp4-tech-label: *Technologies et compétences:*
 :exp4-tech-1: Dynatrace
 :exp4-tech-2: Python
@@ -136,7 +136,7 @@
 * Mise en place d'un cluster Kubernetes sous K3S avec déploiement automatisé via Ansible \
 * Configuration de règles sous Traefik Ingress, gestion d'un registre interne, gestion des données, et mise en place d'un pipeline CI/CD \
 * Acquisition de compétences en matière d'optimisation et de bonnes pratiques, en particulier en ce qui concerne la sécurisation du cluster Kubernetes et l'assurance de sa haute disponibilité \
-* Conception et développement d'outils internes et de serveurs de test pour améliorer l'efficacité et la performance des opérations**
+* Conception et développement d'outils internes et de serveurs de test pour améliorer l'efficacité et la performance des opérations
 :exp5-tech-label: *Technologies et compétences:*
 :exp5-tech-1: Pascal / Delphi
 :exp5-tech-2: Ansible
@@ -166,7 +166,7 @@
 * À l'initiative - Pair documentation officielle Traefik - Reverse Proxy \
 * Déploiement de différents frontend Angular via Traefik \
 * Déploiement de structure de calculateur d'itinéraire et geocodage \
-* Mise en place d'orchestration Docker Swarm puis migration vers cluster Kubernetes managé ScaleWay - Pipeline GitlabCI**
+* Mise en place d'orchestration Docker Swarm puis migration vers cluster Kubernetes managé ScaleWay - Pipeline GitlabCI
 :exp6-tech-label: *Technologies - Languages:*
 :exp6-tech-1: Docker / Compose
 :exp6-tech-2: Gitlab CI – Travis
@@ -193,7 +193,7 @@
 * Intervention technique à distance et sur parc client \
 * Hotline dans les domaines de la Téléphonie IP, des Serveurs, infrastructure et de Fournisseur d'accès internet \
 * Développement de script bash d'automatisation de redémarrage de session distantes via telnet \
-* Installation physique et logiciel de serveurs / Virtualisation de machines client**
+* Installation physique et logiciel de serveurs / Virtualisation de machines client
 :exp7-tech-label: *Technologies - Rôles - Languages:*
 :exp7-tech-1: Help Desk
 :exp7-tech-2: Réseau entreprise
@@ -213,8 +213,8 @@
 :exp8-period-label: Période
 :exp8-period-value: icon:calendar[] `2014` - icon:calendar-check-o[] `2015`
 :exp8-desc-label: *Description et responsabilités:*
-:exp8-desc-content: * **Administration, management et gestion de section (300 personnes) au sein d'une association multigaming de 2000 personnes** \
-* **Création du site internet**
+:exp8-desc-content: * Administration, management et gestion de section (300 personnes) au sein d'une association multigaming de 2000 personnes \
+* Création du site internet
 :exp8-tech-label: *Technologies et compétences:*
 :exp8-tech-1: Gestion d'équipe
 :exp8-tech-2: Web développement
