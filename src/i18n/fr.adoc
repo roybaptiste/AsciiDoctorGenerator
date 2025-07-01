@@ -29,10 +29,18 @@
 * **Sécurisation de la Plateforme :** Conception et déploiement de règles d'alerting (PrometheusRules) pour la surveillance active de la sécurité de la stack d'observabilité (accès, flux, etc.). \
 * **Transfert de Compétences :** Livraison d'un dossier de fond sur l'architecture et l'optimisation, servant de référentiel technique pour l'industrialisation de la plateforme.
 :exp1-tech-label: *Technologies et compétences:*
-:exp1-tech-rows: |[.tag]#OpenTelemetry (Collector, Operator)# |[.tag]#Grafana Tempo# |[.tag]#Architecture Distribuée# \
-|[.tag]#Prometheus (Remote Write, OTLP)# |[.tag]#Kubernetes (DaemonSet, NetPol)# |[.tag]#Stratégie de Sampling# \
-|[.tag]#Service Graphs & Exemplars# |[.tag]#Sécurité (JWT, PrometheusRules)# |[.tag]#Conseil & Stratégie# \
-|[.tag]#MinIO# |[.tag]#IaC / GitOps# |[.tag]#Optimisation Performance#
+:exp1-tech-1: OpenTelemetry (Collector, Operator)
+:exp1-tech-2: Grafana Tempo
+:exp1-tech-3: Architecture Distribuée
+:exp1-tech-4: Prometheus (Remote Write, OTLP)
+:exp1-tech-5: Kubernetes (DaemonSet, NetPol)
+:exp1-tech-6: Stratégie de Sampling
+:exp1-tech-7: Service Graphs & Exemplars
+:exp1-tech-8: Sécurité (JWT, PrometheusRules)
+:exp1-tech-9: Conseil & Stratégie
+:exp1-tech-10: MinIO
+:exp1-tech-11: IaC / GitOps
+:exp1-tech-12: Optimisation Performance
 
 // PAYMED
 :exp2-title: EXPERT DEVOPS - ARCHITECTE / ADMINISTRATEUR On'PREM / CLOUD CHEZ PAYMED (MISSION APSIDE)
@@ -43,12 +51,20 @@
 * Définition de la feuille de route technique : élaboration de dossiers d'architecture pour piloter les évolutions stratégiques (gouvernance, optimisation des coûts, nouvelles briques) et garantir l'alignement avec les objectifs métier. \
 * Ingénierie de l'usine logicielle CI/CD : conception et mise en œuvre d'une chaîne d'outils complète (Tekton, ArgoCD, Harbor) pour automatiser et sécuriser l'ensemble du cycle de vie applicatif. \
 * Accompagnement des équipes de développement : conseil en architecture logicielle et optimisation des performances applicatives au sein de l'écosystème Kubernetes. \
-* Mise à jour de la documentation d'architecture et des procédures d'exploitation pour refléter les évolutions.
+* Mise à jour de la documentation d'architecture** et des procédures d'exploitation pour refléter les évolutions.
 :exp2-tech-label: *Technologies et compétences:*
-:exp2-tech-rows: |[.tag]#Kubernetes / RKE2# |[.tag]#Gravitee# |[.tag]#IaC / GitOps# \
-|[.tag]#Docker# |[.tag]#CloudNativePG (PostgreSQL)# |[.tag]#Haute Disponibilité# \
-|[.tag]#RabbitMQ# |[.tag]#Longhorn# |[.tag]#Sécurité (WAF, NetPol)# \
-|[.tag]#RHEL# |[.tag]#Nginx# |[.tag]#Architecture Microservices#
+:exp2-tech-1: Kubernetes / RKE2
+:exp2-tech-2: Gravitee
+:exp2-tech-3: IaC / GitOps
+:exp2-tech-4: Docker
+:exp2-tech-5: CloudNativePG (PostgreSQL)
+:exp2-tech-6: Haute Disponibilité
+:exp2-tech-7: RabbitMQ
+:exp2-tech-8: Longhorn
+:exp2-tech-9: Sécurité (WAF, NetPol)
+:exp2-tech-10: RHEL
+:exp2-tech-11: Nginx
+:exp2-tech-12: Architecture Microservices
 
 // APSIDE
 :exp3-title: DEVOPS EXPERT - OBSERVABILITY ENGINEER CHEZ APSIDE
@@ -60,12 +76,20 @@
 * Automatisation du déploiement de Harness OpenSource (Gitness) - Pipelines \
 * Préparation à la certification Grafana Solution Architect \
 * Intérêt pour l'intelligence artificielle \
-* Conférencier sur le sujet de l'observabilité Google Developer Group
+* Conférencier sur le sujet de l'observabilité** Google Developer Group
 :exp3-tech-label: *Technologies et compétences:*
-:exp3-tech-rows: |[.tag]#Python# |[.tag]#Quarkus# |[.tag]#Examplars / Mimir# \
-|[.tag]#React# |[.tag]#OpenTelemetry# |[.tag]#Harness / Gitness# \
-|[.tag]#FastAPI# |[.tag]#Grafana# |[.tag]#Automatisation# \
-|[.tag]#Java 23# |[.tag]#QuickWit# |
+:exp3-tech-1: Python
+:exp3-tech-2: Quarkus
+:exp3-tech-3: Examplars / Mimir
+:exp3-tech-4: React
+:exp3-tech-5: OpenTelemetry
+:exp3-tech-6: Harness / Gitness
+:exp3-tech-7: FastAPI
+:exp3-tech-8: Grafana
+:exp3-tech-9: Automatisation
+:exp3-tech-10: Java 23
+:exp3-tech-11: QuickWit
+:exp3-tech-12:
 
 // COVEA
 :exp4-title: ADMINISTRATEUR DYNATRACE - LEAD INTÉGRATEUR - ASSURANCE CHEZ COVEA (MISSION APSIDE)
@@ -85,12 +109,20 @@
 * Théorisation et mise en place des Service Level Objectives (SLO) \
 * Intégration et optimisation des Logs à chaud vers la solution Dynatrace \
 * Accompagnement technique et fonctionnel des équipes d'intégrateurs sur la solution Dynatrace \
-* Rédaction d'une documentation des différentes phases de l'onBoarding d'une application COVEA vers la solution Dynatrace
+* Rédaction d'une documentation des différentes phases de l'onBoarding d'une application COVEA vers la solution Dynatrace**
 :exp4-tech-label: *Technologies et compétences:*
-:exp4-tech-rows: |[.tag]#Dynatrace# |[.tag]#Python# |[.tag]#Splunk# \
-|[.tag]#Ansible# |[.tag]#MonAco# |[.tag]#Automatisation# \
-|[.tag]#Documentation technique# |[.tag]#AppDynamics# | \
-|[.tag]#OpenShift/Kubernetes# |[.tag]#Zabbix# |
+:exp4-tech-1: Dynatrace
+:exp4-tech-2: Python
+:exp4-tech-3: Splunk
+:exp4-tech-4: Ansible
+:exp4-tech-5: MonAco
+:exp4-tech-6: Automatisation
+:exp4-tech-7: Documentation technique
+:exp4-tech-8: AppDynamics
+:exp4-tech-9:
+:exp4-tech-10: OpenShift/Kubernetes
+:exp4-tech-11: Zabbix
+:exp4-tech-12:
 
 // MICROTEC
 :exp5-title: ANALYSE DÉVELOPPEUR - DEVOPS CHEZ MICROTEC
@@ -104,12 +136,20 @@
 * Mise en place d'un cluster Kubernetes sous K3S avec déploiement automatisé via Ansible \
 * Configuration de règles sous Traefik Ingress, gestion d'un registre interne, gestion des données, et mise en place d'un pipeline CI/CD \
 * Acquisition de compétences en matière d'optimisation et de bonnes pratiques, en particulier en ce qui concerne la sécurisation du cluster Kubernetes et l'assurance de sa haute disponibilité \
-* Conception et développement d'outils internes et de serveurs de test pour améliorer l'efficacité et la performance des opérations
+* Conception et développement d'outils internes et de serveurs de test pour améliorer l'efficacité et la performance des opérations**
 :exp5-tech-label: *Technologies et compétences:*
-:exp5-tech-rows: |[.tag]#Pascal / Delphi# |[.tag]#Ansible# | \
-|[.tag]#Firebird# |[.tag]#Pipeline CI/CD# | \
-|[.tag]#Support client / technique# |[.tag]#Traefik# | \
-|[.tag]#Kubernetes / K3S# | |
+:exp5-tech-1: Pascal / Delphi
+:exp5-tech-2: Ansible
+:exp5-tech-3:
+:exp5-tech-4: Firebird
+:exp5-tech-5: Pipeline CI/CD
+:exp5-tech-6:
+:exp5-tech-7: Support client / technique
+:exp5-tech-8: Traefik
+:exp5-tech-9:
+:exp5-tech-10: Kubernetes / K3S
+:exp5-tech-11:
+:exp5-tech-12:
 
 // GEOVELO
 :exp6-title: DEVOPS / INFRASTRUCTURE CHEZ GEOVELO - LA COMPAGNIE DES MOBILITÉS
@@ -126,12 +166,20 @@
 * À l'initiative - Pair documentation officielle Traefik - Reverse Proxy \
 * Déploiement de différents frontend Angular via Traefik \
 * Déploiement de structure de calculateur d'itinéraire et geocodage \
-* Mise en place d'orchestration Docker Swarm puis migration vers cluster Kubernetes managé ScaleWay - Pipeline GitlabCI
+* Mise en place d'orchestration Docker Swarm puis migration vers cluster Kubernetes managé ScaleWay - Pipeline GitlabCI**
 :exp6-tech-label: *Technologies - Languages:*
-:exp6-tech-rows: |[.tag]#Docker / Compose# |[.tag]#Gitlab CI – Travis# | \
-|[.tag]#Kubernetes - Swarm - Traefik# |[.tag]#Debian# | \
-|[.tag]#Nginx# |[.tag]#Go (docker API) - Bash – Python - Angular# | \
-|[.tag]#Terraform# |[.tag]#Cloud provider - Scaleway# |
+:exp6-tech-1: Docker / Compose
+:exp6-tech-2: Gitlab CI – Travis
+:exp6-tech-3:
+:exp6-tech-4: Kubernetes - Swarm - Traefik
+:exp6-tech-5: Debian
+:exp6-tech-6:
+:exp6-tech-7: Nginx
+:exp6-tech-8: Go (docker API) - Bash – Python - Angular
+:exp6-tech-9:
+:exp6-tech-10: Terraform
+:exp6-tech-11: Cloud provider - Scaleway
+:exp6-tech-12:
 
 // CMRP/SELFONE
 :exp7-title: DÉVELOPPEUR / GESTION DE PROJET CHEZ CMRP/SELFONE
@@ -145,23 +193,41 @@
 * Intervention technique à distance et sur parc client \
 * Hotline dans les domaines de la Téléphonie IP, des Serveurs, infrastructure et de Fournisseur d'accès internet \
 * Développement de script bash d'automatisation de redémarrage de session distantes via telnet \
-* Installation physique et logiciel de serveurs / Virtualisation de machines client
+* Installation physique et logiciel de serveurs / Virtualisation de machines client**
 :exp7-tech-label: *Technologies - Rôles - Languages:*
-:exp7-tech-rows: |[.tag]#Help Desk# |[.tag]#Réseau entreprise# | \
-|[.tag]#Interventions technique# |[.tag]#Android - Java – Bash - PHP - HTML - CSS# | \
-|[.tag]#Hotline technique# |[.tag]#Telnet# | \
-|[.tag]#Proxmox# |[.tag]#PHP 7# |
+:exp7-tech-1: Help Desk
+:exp7-tech-2: Réseau entreprise
+:exp7-tech-3:
+:exp7-tech-4: Interventions technique
+:exp7-tech-5: Android - Java – Bash - PHP - HTML - CSS
+:exp7-tech-6:
+:exp7-tech-7: Hotline technique
+:exp7-tech-8: Telnet
+:exp7-tech-9:
+:exp7-tech-10: Proxmox
+:exp7-tech-11: PHP 7
+:exp7-tech-12:
 
 // TEAM FANTASY
 :exp8-title: ADMINISTRATEUR MULTIGAMING CHEZ TEAM FANTASY
 :exp8-period-label: Période
 :exp8-period-value: icon:calendar[] `2014` - icon:calendar-check-o[] `2015`
 :exp8-desc-label: *Description et responsabilités:*
-:exp8-desc-content: * Administration, management et gestion de section (300 personnes) au sein d'une association multigaming de 2000 personnes \
-* Création du site internet
+:exp8-desc-content: * **Administration, management et gestion de section (300 personnes) au sein d'une association multigaming de 2000 personnes** \
+* **Création du site internet**
 :exp8-tech-label: *Technologies et compétences:*
-:exp8-tech-rows: |[.tag]#Gestion d'équipe# |[.tag]#Web développement# | \
-|[.tag]#Community management# |[.tag]#Administration# |
+:exp8-tech-1: Gestion d'équipe
+:exp8-tech-2: Web développement
+:exp8-tech-3:
+:exp8-tech-4: Community management
+:exp8-tech-5: Administration
+:exp8-tech-6:
+:exp8-tech-7:
+:exp8-tech-8:
+:exp8-tech-9:
+:exp8-tech-10:
+:exp8-tech-11:
+:exp8-tech-12:
 
 // ---- Education & Training ----
 :education-title: Formation

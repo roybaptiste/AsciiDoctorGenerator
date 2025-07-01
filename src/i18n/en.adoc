@@ -29,10 +29,18 @@
 * **Platform Security:** Designed and deployed alerting rules (PrometheusRules) for active security monitoring of the observability stack (access, data flows, etc.). \
 * **Knowledge Transfer:** Delivered a comprehensive architecture and optimization document, serving as a technical reference for the platform's industrialization.
 :exp1-tech-label: *Technologies and Skills:*
-:exp1-tech-rows: |[.tag]#OpenTelemetry (Collector, Operator)# |[.tag]#Grafana Tempo# |[.tag]#Distributed Architecture# \
-|[.tag]#Prometheus (Remote Write, OTLP)# |[.tag]#Kubernetes (DaemonSet, NetPol)# |[.tag]#Sampling Strategy# \
-|[.tag]#Service Graphs & Exemplars# |[.tag]#Security (JWT, PrometheusRules)# |[.tag]#Consulting & Strategy# \
-|[.tag]#MinIO# |[.tag]#IaC / GitOps# |[.tag]#Performance Optimization#
+:exp1-tech-1: OpenTelemetry (Collector, Operator)
+:exp1-tech-2: Grafana Tempo
+:exp1-tech-3: Distributed Architecture
+:exp1-tech-4: Prometheus (Remote Write, OTLP)
+:exp1-tech-5: Kubernetes (DaemonSet, NetPol)
+:exp1-tech-6: Sampling Strategy
+:exp1-tech-7: Service Graphs & Exemplars
+:exp1-tech-8: Security (JWT, PrometheusRules)
+:exp1-tech-9: Consulting & Strategy
+:exp1-tech-10: MinIO
+:exp1-tech-11: IaC / GitOps
+:exp1-tech-12: Performance Optimization
 
 // PAYMED
 :exp2-title: DEVOPS EXPERT - ON-PREM / CLOUD ARCHITECT & ADMINISTRATOR AT PAYMED (APSIDE MISSION)
@@ -45,10 +53,18 @@
 * **Guided development teams:** provided consulting on software architecture and application performance optimization within the Kubernetes ecosystem. \
 * **Updated architecture documentation** and operational procedures to reflect system evolutions.
 :exp2-tech-label: *Technologies and Skills:*
-:exp2-tech-rows: |[.tag]#Kubernetes / RKE2# |[.tag]#Gravitee# |[.tag]#IaC / GitOps# \
-|[.tag]#Docker# |[.tag]#CloudNativePG (PostgreSQL)# |[.tag]#High Availability# \
-|[.tag]#RabbitMQ# |[.tag]#Longhorn# |[.tag]#Security (WAF, NetPol)# \
-|[.tag]#RHEL# |[.tag]#Nginx# |[.tag]#Microservices Architecture#
+:exp2-tech-1: Kubernetes / RKE2
+:exp2-tech-2: Gravitee
+:exp2-tech-3: IaC / GitOps
+:exp2-tech-4: Docker
+:exp2-tech-5: CloudNativePG (PostgreSQL)
+:exp2-tech-6: High Availability
+:exp2-tech-7: RabbitMQ
+:exp2-tech-8: Longhorn
+:exp2-tech-9: Security (WAF, NetPol)
+:exp2-tech-10: RHEL
+:exp2-tech-11: Nginx
+:exp2-tech-12: Microservices Architecture
 
 // APSIDE
 :exp3-title: DEVOPS EXPERT - OBSERVABILITY ENGINEER AT APSIDE
@@ -62,10 +78,18 @@
 * Interest in Artificial Intelligence. \
 * Speaker on the topic of observability at Google Developer Group.
 :exp3-tech-label: *Technologies and Skills:*
-:exp3-tech-rows: |[.tag]#Python# |[.tag]#Quarkus# |[.tag]#Examplars / Mimir# \
-|[.tag]#React# |[.tag]#OpenTelemetry# |[.tag]#Harness / Gitness# \
-|[.tag]#FastAPI# |[.tag]#Grafana# |[.tag]#Automation# \
-|[.tag]#Java 23# |[.tag]#QuickWit# |
+:exp3-tech-1: Python
+:exp3-tech-2: Quarkus
+:exp3-tech-3: Examplars / Mimir
+:exp3-tech-4: React
+:exp3-tech-5: OpenTelemetry
+:exp3-tech-6: Harness / Gitness
+:exp3-tech-7: FastAPI
+:exp3-tech-8: Grafana
+:exp3-tech-9: Automation
+:exp3-tech-10: Java 23
+:exp3-tech-11: QuickWit
+:exp3-tech-12:
 
 // COVEA
 :exp4-title: DYNATRACE ADMINISTRATOR - LEAD INTEGRATOR - INSURANCE AT COVEA (APSIDE MISSION)
@@ -87,10 +111,18 @@
 * Provided technical and functional support to integrator teams on the Dynatrace solution. \
 * Wrote documentation for the different phases of onboarding a COVEA application to the Dynatrace solution.
 :exp4-tech-label: *Technologies and Skills:*
-:exp4-tech-rows: |[.tag]#Dynatrace# |[.tag]#Python# |[.tag]#Splunk# \
-|[.tag]#Ansible# |[.tag]#Monaco# |[.tag]#Automation# \
-|[.tag]#Technical Documentation# |[.tag]#AppDynamics# | \
-|[.tag]#OpenShift/Kubernetes# |[.tag]#Zabbix# |
+:exp4-tech-1: Dynatrace
+:exp4-tech-2: Python
+:exp4-tech-3: Splunk
+:exp4-tech-4: Ansible
+:exp4-tech-5: Monaco
+:exp4-tech-6: Automation
+:exp4-tech-7: Technical Documentation
+:exp4-tech-8: AppDynamics
+:exp4-tech-9:
+:exp4-tech-10: OpenShift/Kubernetes
+:exp4-tech-11: Zabbix
+:exp4-tech-12:
 
 // MICROTEC
 :exp5-title: DEVELOPER ANALYST - DEVOPS AT MICROTEC
@@ -106,10 +138,18 @@
 * Acquired skills in optimization and best practices, particularly regarding Kubernetes cluster security and high availability. \
 * Designed and developed internal tools and test servers to improve operational efficiency and performance.
 :exp5-tech-label: *Technologies and Skills:*
-:exp5-tech-rows: |[.tag]#Pascal / Delphi# |[.tag]#Ansible# | \
-|[.tag]#Firebird# |[.tag]#CI/CD Pipeline# | \
-|[.tag]#Customer / Technical Support# |[.tag]#Traefik# | \
-|[.tag]#Kubernetes / K3S# | |
+:exp5-tech-1: Pascal / Delphi
+:exp5-tech-2: Ansible
+:exp5-tech-3:
+:exp5-tech-4: Firebird
+:exp5-tech-5: CI/CD Pipeline
+:exp5-tech-6:
+:exp5-tech-7: Customer / Technical Support
+:exp5-tech-8: Traefik
+:exp5-tech-9:
+:exp5-tech-10: Kubernetes / K3S
+:exp5-tech-11:
+:exp5-tech-12:
 
 // GEOVELO
 :exp6-title: DEVOPS / INFRASTRUCTURE AT GEOVELO - LA COMPAGNIE DES MOBILITÉS
@@ -128,10 +168,18 @@
 * Deployed route calculation and geocoding infrastructure. \
 * Implemented Docker Swarm orchestration then migrated to a managed Kubernetes cluster on Scaleway - GitlabCI Pipeline.
 :exp6-tech-label: *Technologies - Languages:*
-:exp6-tech-rows: |[.tag]#Docker / Compose# |[.tag]#Gitlab CI – Travis# | \
-|[.tag]#Kubernetes - Swarm - Traefik# |[.tag]#Debian# | \
-|[.tag]#Nginx# |[.tag]#Go (docker API) - Bash – Python - Angular# | \
-|[.tag]#Terraform# |[.tag]#Cloud provider - Scaleway# |
+:exp6-tech-1: Docker / Compose
+:exp6-tech-2: Gitlab CI – Travis
+:exp6-tech-3:
+:exp6-tech-4: Kubernetes - Swarm - Traefik
+:exp6-tech-5: Debian
+:exp6-tech-6:
+:exp6-tech-7: Nginx
+:exp6-tech-8: Go (docker API) - Bash – Python - Angular
+:exp6-tech-9:
+:exp6-tech-10: Terraform
+:exp6-tech-11: Cloud provider - Scaleway
+:exp6-tech-12:
 
 // CMRP/SELFONE
 :exp7-title: DEVELOPER / PROJECT MANAGER AT CMRP/SELFONE
@@ -147,10 +195,18 @@
 * Developed bash scripts to automate remote session restarts via telnet. \
 * Physically and logically installed servers / Virtualized client machines.
 :exp7-tech-label: *Technologies - Roles - Languages:*
-:exp7-tech-rows: |[.tag]#Help Desk# |[.tag]#Corporate Networking# | \
-|[.tag]#Technical Interventions# |[.tag]#Android - Java – Bash - PHP - HTML - CSS# | \
-|[.tag]#Technical Hotline# |[.tag]#Telnet# | \
-|[.tag]#Proxmox# |[.tag]#PHP 7# |
+:exp7-tech-1: Help Desk
+:exp7-tech-2: Corporate Networking
+:exp7-tech-3:
+:exp7-tech-4: Technical Interventions
+:exp7-tech-5: Android - Java – Bash - PHP - HTML - CSS
+:exp7-tech-6:
+:exp7-tech-7: Technical Hotline
+:exp7-tech-8: Telnet
+:exp7-tech-9:
+:exp7-tech-10: Proxmox
+:exp7-tech-11: PHP 7
+:exp7-tech-12:
 
 // TEAM FANTASY
 :exp8-title: MULTIGAMING ADMINISTRATOR AT TEAM FANTASY
@@ -160,8 +216,18 @@
 :exp8-desc-content: * Administered, managed, and led a section of 300 members within a multi-gaming association of 2000 people. \
 * Created the website.
 :exp8-tech-label: *Technologies and Skills:*
-:exp8-tech-rows: |[.tag]#Team Management# |[.tag]#Web Development# | \
-|[.tag]#Community management# |[.tag]#Administration# |
+:exp8-tech-1: Team Management
+:exp8-tech-2: Web Development
+:exp8-tech-3:
+:exp8-tech-4: Community management
+:exp8-tech-5: Administration
+:exp8-tech-6:
+:exp8-tech-7:
+:exp8-tech-8:
+:exp8-tech-9:
+:exp8-tech-10:
+:exp8-tech-11:
+:exp8-tech-12:
 
 // ---- Education & Training ----
 :education-title: Education & Training

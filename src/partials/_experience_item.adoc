@@ -22,6 +22,9 @@
 [.tech-tags]
 [cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
 |===
-{exp_tech_rows}
+| [.tag]#__{exp_tech_1}__# | [.tag]#__{exp_tech_2}__# | [.tag]#__{exp_tech_3}__#
+| [.tag]#__{exp_tech_4}__# | [.tag]#__{exp_tech_5}__# | [.tag]#__{exp_tech_6}__#
+| [.tag]#__{exp_tech_7}__# | [.tag]#__{exp_tech_8}__# | [.tag]#__{exp_tech_9}__#
+| [.tag]#__{exp_tech_10}__# | [.tag]#__{exp_tech_11}__# | [.tag]#__{exp_tech_12}__#
 |===
 ==== 
