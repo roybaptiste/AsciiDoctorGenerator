@@ -30,7 +30,7 @@
 * **Sécurisation de la Plateforme :** Conception et déploiement de règles d'alerting (PrometheusRules) pour la surveillance active de la sécurité de la stack d'observabilité (accès, flux, etc.).
 * **Transfert de Compétences :** Livraison d'un dossier de fond sur l'architecture et l'optimisation, servant de référentiel technique pour l'industrialisation de la plateforme.
 :exp1-tech-label: *Technologies et compétences:*
-:exp1-tech-rows: |
+:exp1-tech-rows:
 |[.tag]#OpenTelemetry (Collector, Operator)# |[.tag]#Grafana Tempo# |[.tag]#Architecture Distribuée#
 |[.tag]#Prometheus (Remote Write, OTLP)# |[.tag]#Kubernetes (DaemonSet, NetPol)# |[.tag]#Stratégie de Sampling#
 |[.tag]#Service Graphs & Exemplars# |[.tag]#Sécurité (JWT, PrometheusRules)# |[.tag]#Conseil & Stratégie#
@@ -48,7 +48,7 @@
 * Accompagnement des équipes de développement : conseil en architecture logicielle et optimisation des performances applicatives au sein de l'écosystème Kubernetes.
 * Mise à jour de la documentation d'architecture et des procédures d'exploitation pour refléter les évolutions.
 :exp2-tech-label: *Technologies et compétences:*
-:exp2-tech-rows: |
+:exp2-tech-rows:
 |[.tag]#Kubernetes / RKE2# |[.tag]#Gravitee# |[.tag]#IaC / GitOps#
 |[.tag]#Docker# |[.tag]#CloudNativePG (PostgreSQL)# |[.tag]#Haute Disponibilité#
 |[.tag]#RabbitMQ# |[.tag]#Longhorn# |[.tag]#Sécurité (WAF, NetPol)#
@@ -67,7 +67,7 @@
 * Intérêt pour l'intelligence artificielle
 * Conférencier sur le sujet de l'observabilité Google Developer Group
 :exp3-tech-label: *Technologies et compétences:*
-:exp3-tech-rows: |
+:exp3-tech-rows:
 |[.tag]#Python# |[.tag]#Quarkus# |[.tag]#Examplars / Mimir#
 |[.tag]#React# |[.tag]#OpenTelemetry# |[.tag]#Harness / Gitness#
 |[.tag]#FastAPI# |[.tag]#Grafana# |[.tag]#Automatisation#
@@ -94,7 +94,7 @@
 * Accompagnement technique et fonctionnel des équipes d'intégrateurs sur la solution Dynatrace
 * Rédaction d'une documentation des différentes phases de l'onBoarding d'une application COVEA vers la solution Dynatrace
 :exp4-tech-label: *Technologies et compétences:*
-:exp4-tech-rows: |
+:exp4-tech-rows:
 |[.tag]#Dynatrace# |[.tag]#Python# |[.tag]#Splunk#
 |[.tag]#Ansible# |[.tag]#MonAco# |[.tag]#Automatisation#
 |[.tag]#Documentation technique# |[.tag]#AppDynamics# |
@@ -115,7 +115,7 @@
 * Acquisition de compétences en matière d'optimisation et de bonnes pratiques, en particulier en ce qui concerne la sécurisation du cluster Kubernetes et l'assurance de sa haute disponibilité
 * Conception et développement d'outils internes et de serveurs de test pour améliorer l'efficacité et la performance des opérations
 :exp5-tech-label: *Technologies et compétences:*
-:exp5-tech-rows: |
+:exp5-tech-rows:
 |[.tag]#Pascal / Delphi# |[.tag]#Ansible# |
 |[.tag]#Firebird# |[.tag]#Pipeline CI/CD# |
 |[.tag]#Support client / technique# |[.tag]#Traefik# |
@@ -139,7 +139,7 @@
 * Déploiement de structure de calculateur d'itinéraire et geocodage
 * Mise en place d'orchestration Docker Swarm puis migration vers cluster Kubernetes managé ScaleWay - Pipeline GitlabCI
 :exp6-tech-label: *Technologies - Languages:*
-:exp6-tech-rows: |
+:exp6-tech-rows:
 |[.tag]#Docker / Compose# |[.tag]#Gitlab CI – Travis# |
 |[.tag]#Kubernetes - Swarm - Traefik# |[.tag]#Debian# |
 |[.tag]#Nginx# |[.tag]#Go (docker API) - Bash – Python - Angular# |
@@ -160,7 +160,7 @@
 * Développement de script bash d'automatisation de redémarrage de session distantes via telnet
 * Installation physique et logiciel de serveurs / Virtualisation de machines client
 :exp7-tech-label: *Technologies - Rôles - Languages:*
-:exp7-tech-rows: |
+:exp7-tech-rows:
 |[.tag]#Help Desk# |[.tag]#Réseau entreprise# |
 |[.tag]#Interventions technique# |[.tag]#Android - Java – Bash - PHP - HTML - CSS# |
 |[.tag]#Hotline technique# |[.tag]#Telnet# |
@@ -175,7 +175,7 @@
 * Administration, management et gestion de section (300 personnes) au sein d'une association multigaming de 2000 personnes
 * Création du site internet
 :exp8-tech-label: *Technologies et compétences:*
-:exp8-tech-rows: |
+:exp8-tech-rows:
 |[.tag]#Gestion d'équipe# |[.tag]#Web développement# |
 |[.tag]#Community management# |[.tag]#Administration# |
 

@@ -30,7 +30,7 @@
 * **Platform Security:** Designed and deployed alerting rules (PrometheusRules) for active security monitoring of the observability stack (access, data flows, etc.).
 * **Knowledge Transfer:** Delivered a comprehensive architecture and optimization document, serving as a technical reference for the platform's industrialization.
 :exp1-tech-label: *Technologies and Skills:*
-:exp1-tech-rows: |
+:exp1-tech-rows:
 |[.tag]#OpenTelemetry (Collector, Operator)# |[.tag]#Grafana Tempo# |[.tag]#Distributed Architecture#
 |[.tag]#Prometheus (Remote Write, OTLP)# |[.tag]#Kubernetes (DaemonSet, NetPol)# |[.tag]#Sampling Strategy#
 |[.tag]#Service Graphs & Exemplars# |[.tag]#Security (JWT, PrometheusRules)# |[.tag]#Consulting & Strategy#
@@ -48,7 +48,7 @@
 * **Guided development teams:** provided consulting on software architecture and application performance optimization within the Kubernetes ecosystem.
 * **Updated architecture documentation** and operational procedures to reflect system evolutions.
 :exp2-tech-label: *Technologies and Skills:*
-:exp2-tech-rows: |
+:exp2-tech-rows:
 |[.tag]#Kubernetes / RKE2# |[.tag]#Gravitee# |[.tag]#IaC / GitOps#
 |[.tag]#Docker# |[.tag]#CloudNativePG (PostgreSQL)# |[.tag]#High Availability#
 |[.tag]#RabbitMQ# |[.tag]#Longhorn# |[.tag]#Security (WAF, NetPol)#
@@ -67,7 +67,7 @@
 * Interest in Artificial Intelligence.
 * Speaker on the topic of observability at Google Developer Group.
 :exp3-tech-label: *Technologies and Skills:*
-:exp3-tech-rows: |
+:exp3-tech-rows:
 |[.tag]#Python# |[.tag]#Quarkus# |[.tag]#Examplars / Mimir#
 |[.tag]#React# |[.tag]#OpenTelemetry# |[.tag]#Harness / Gitness#
 |[.tag]#FastAPI# |[.tag]#Grafana# |[.tag]#Automation#
@@ -94,7 +94,7 @@
 * Provided technical and functional support to integrator teams on the Dynatrace solution.
 * Wrote documentation for the different phases of onboarding a COVEA application to the Dynatrace solution.
 :exp4-tech-label: *Technologies and Skills:*
-:exp4-tech-rows: |
+:exp4-tech-rows:
 |[.tag]#Dynatrace# |[.tag]#Python# |[.tag]#Splunk#
 |[.tag]#Ansible# |[.tag]#Monaco# |[.tag]#Automation#
 |[.tag]#Technical Documentation# |[.tag]#AppDynamics# |
@@ -115,7 +115,7 @@
 * Acquired skills in optimization and best practices, particularly regarding Kubernetes cluster security and high availability.
 * Designed and developed internal tools and test servers to improve operational efficiency and performance.
 :exp5-tech-label: *Technologies and Skills:*
-:exp5-tech-rows: |
+:exp5-tech-rows:
 |[.tag]#Pascal / Delphi# |[.tag]#Ansible# |
 |[.tag]#Firebird# |[.tag]#CI/CD Pipeline# |
 |[.tag]#Customer / Technical Support# |[.tag]#Traefik# |
@@ -139,7 +139,7 @@
 * Deployed route calculation and geocoding infrastructure.
 * Implemented Docker Swarm orchestration then migrated to a managed Kubernetes cluster on Scaleway - GitlabCI Pipeline.
 :exp6-tech-label: *Technologies - Languages:*
-:exp6-tech-rows: |
+:exp6-tech-rows:
 |[.tag]#Docker / Compose# |[.tag]#Gitlab CI – Travis# |
 |[.tag]#Kubernetes - Swarm - Traefik# |[.tag]#Debian# |
 |[.tag]#Nginx# |[.tag]#Go (docker API) - Bash – Python - Angular# |
@@ -160,7 +160,7 @@
 * Developed bash scripts to automate remote session restarts via telnet.
 * Physically and logically installed servers / Virtualized client machines.
 :exp7-tech-label: *Technologies - Roles - Languages:*
-:exp7-tech-rows: |
+:exp7-tech-rows:
 |[.tag]#Help Desk# |[.tag]#Corporate Networking# |
 |[.tag]#Technical Interventions# |[.tag]#Android - Java – Bash - PHP - HTML - CSS# |
 |[.tag]#Technical Hotline# |[.tag]#Telnet# |
@@ -175,7 +175,7 @@
 * Administered, managed, and led a section of 300 members within a multi-gaming association of 2000 people.
 * Created the website.
 :exp8-tech-label: *Technologies and Skills:*
-:exp8-tech-rows: |
+:exp8-tech-rows:
 |[.tag]#Team Management# |[.tag]#Web Development# |
 |[.tag]#Community management# |[.tag]#Administration# |
 
