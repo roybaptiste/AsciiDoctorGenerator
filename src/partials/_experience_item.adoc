@@ -20,5 +20,8 @@
 {exp_tech_label}
 
 [.tech-tags]
-{exp_tech_content}
+[cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
+|===
+{exp_tech_rows}
+|===
 ==== 

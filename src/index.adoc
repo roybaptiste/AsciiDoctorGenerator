@@ -81,7 +81,7 @@ icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role
 :exp_desc_label: {exp1-desc-label}
 :exp_desc_content: {exp1-desc-content}
 :exp_tech_label: {exp1-tech-label}
-:exp_tech_content: {exp1-tech-content}
+:exp_tech_rows: {exp1-tech-rows}
 include::partials/_experience_item.adoc[]
 :!exp_title:
 :!exp_period_label:
@@ -89,7 +89,7 @@ include::partials/_experience_item.adoc[]
 :!exp_desc_label:
 :!exp_desc_content:
 :!exp_tech_label:
-:!exp_tech_content:
+:!exp_tech_rows:
 
 // --- Experience 2 ---
 :exp_title: {exp2-title}
@@ -98,7 +98,7 @@ include::partials/_experience_item.adoc[]
 :exp_desc_label: {exp2-desc-label}
 :exp_desc_content: {exp2-desc-content}
 :exp_tech_label: {exp2-tech-label}
-:exp_tech_content: {exp2-tech-content}
+:exp_tech_rows: {exp2-tech-rows}
 include::partials/_experience_item.adoc[]
 :!exp_title:
 :!exp_period_label:
@@ -106,7 +106,7 @@ include::partials/_experience_item.adoc[]
 :!exp_desc_label:
 :!exp_desc_content:
 :!exp_tech_label:
-:!exp_tech_content:
+:!exp_tech_rows:
 
 // --- Experience 3 ---
 :exp_title: {exp3-title}
@@ -115,7 +115,7 @@ include::partials/_experience_item.adoc[]
 :exp_desc_label: {exp3-desc-label}
 :exp_desc_content: {exp3-desc-content}
 :exp_tech_label: {exp3-tech-label}
-:exp_tech_content: {exp3-tech-content}
+:exp_tech_rows: {exp3-tech-rows}
 include::partials/_experience_item.adoc[]
 :!exp_title:
 :!exp_period_label:
@@ -123,7 +123,7 @@ include::partials/_experience_item.adoc[]
 :!exp_desc_label:
 :!exp_desc_content:
 :!exp_tech_label:
-:!exp_tech_content:
+:!exp_tech_rows:
 
 // --- Experience 4 ---
 :exp_title: {exp4-title}
@@ -132,7 +132,7 @@ include::partials/_experience_item.adoc[]
 :exp_desc_label: {exp4-desc-label}
 :exp_desc_content: {exp4-desc-content}
 :exp_tech_label: {exp4-tech-label}
-:exp_tech_content: {exp4-tech-content}
+:exp_tech_rows: {exp4-tech-rows}
 include::partials/_experience_item.adoc[]
 :!exp_title:
 :!exp_period_label:
@@ -140,7 +140,7 @@ include::partials/_experience_item.adoc[]
 :!exp_desc_label:
 :!exp_desc_content:
 :!exp_tech_label:
-:!exp_tech_content:
+:!exp_tech_rows:
 
 // --- Experience 5 ---
 :exp_title: {exp5-title}
@@ -149,7 +149,7 @@ include::partials/_experience_item.adoc[]
 :exp_desc_label: {exp5-desc-label}
 :exp_desc_content: {exp5-desc-content}
 :exp_tech_label: {exp5-tech-label}
-:exp_tech_content: {exp5-tech-content}
+:exp_tech_rows: {exp5-tech-rows}
 include::partials/_experience_item.adoc[]
 :!exp_title:
 :!exp_period_label:
@@ -157,7 +157,7 @@ include::partials/_experience_item.adoc[]
 :!exp_desc_label:
 :!exp_desc_content:
 :!exp_tech_label:
-:!exp_tech_content:
+:!exp_tech_rows:
 
 // --- Experience 6 ---
 :exp_title: {exp6-title}
@@ -166,7 +166,7 @@ include::partials/_experience_item.adoc[]
 :exp_desc_label: {exp6-desc-label}
 :exp_desc_content: {exp6-desc-content}
 :exp_tech_label: {exp6-tech-label}
-:exp_tech_content: {exp6-tech-content}
+:exp_tech_rows: {exp6-tech-rows}
 include::partials/_experience_item.adoc[]
 :!exp_title:
 :!exp_period_label:
@@ -174,7 +174,7 @@ include::partials/_experience_item.adoc[]
 :!exp_desc_label:
 :!exp_desc_content:
 :!exp_tech_label:
-:!exp_tech_content:
+:!exp_tech_rows:
 
 // --- Experience 7 ---
 :exp_title: {exp7-title}
@@ -183,7 +183,7 @@ include::partials/_experience_item.adoc[]
 :exp_desc_label: {exp7-desc-label}
 :exp_desc_content: {exp7-desc-content}
 :exp_tech_label: {exp7-tech-label}
-:exp_tech_content: {exp7-tech-content}
+:exp_tech_rows: {exp7-tech-rows}
 include::partials/_experience_item.adoc[]
 :!exp_title:
 :!exp_period_label:
@@ -191,7 +191,7 @@ include::partials/_experience_item.adoc[]
 :!exp_desc_label:
 :!exp_desc_content:
 :!exp_tech_label:
-:!exp_tech_content:
+:!exp_tech_rows:
 
 // --- Experience 8 ---
 :exp_title: {exp8-title}
@@ -200,7 +200,7 @@ include::partials/_experience_item.adoc[]
 :exp_desc_label: {exp8-desc-label}
 :exp_desc_content: {exp8-desc-content}
 :exp_tech_label: {exp8-tech-label}
-:exp_tech_content: {exp8-tech-content}
+:exp_tech_rows: {exp8-tech-rows}
 include::partials/_experience_item.adoc[]
 :!exp_title:
 :!exp_period_label:
@@ -208,7 +208,7 @@ include::partials/_experience_item.adoc[]
 :!exp_desc_label:
 :!exp_desc_content:
 :!exp_tech_label:
-:!exp_tech_content:
+:!exp_tech_rows:
 
 ## [.section-header]#icon:graduation-cap[] {education-title}#
 
