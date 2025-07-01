@@ -1,0 +1,9 @@
+[.card.conference]
+====
+{talk_title}
+
+[horizontal]
+ifdef::talk_org_label[{talk_org_label}:: {talk_org_value}]
+ifdef::talk_link_label[{talk_link_label}:: {talk_link_value}]
+ifdef::talk_status_label[{talk_status_label}:: {talk_status_value}]
+==== 

@@ -1,0 +1,348 @@
+= {doc-title}
+:nofooter:
+:noheader:
+:icons: font
+:email: roy.baptiste45@gmail.com
+:sectlinks:
+:data-uri:
+:doctype: article
+:toc: left
+:toclevels: 2
+:experimental:
+:source-highlighter: highlightjs
+:stylesdir: css
+:stylesheet: custom.css
+:linkattrs:
+:sectanchors:
+:favicon: favicon.ico
+:main-color: #4B6A88
+:second-color: #44546A
+:third-color: #3C4A5A
+:table-stripes: even
+:icons-set: fas
+:stem:
+:header-footer: false
+
+// ---- Language selection ----
+// Use a build parameter like `-a lang=fr` or `-a lang=en`
+// Default to french if not set
+ifndef::lang[]
+:lang: fr
+endif::[]
+
+// ---- Include language file ----
+include::i18n/{lang}.adoc[]
+
+++++
+<div style="display:none">
+<h1>{header-title}</h1>
+</div>
+++++
+
+++++
+<div class="cv-header">
+  <div class="language-switcher">
+    {lang-switcher}
+  </div>
+  <h1>ROY BAPTISTE</h1>
+  <h2>{job-title}</h2>
+  <div class="cv-contact">{contact-info}</div>
+</div>
+++++
+
+[#personal-profile]
+== icon:user[] {personal-profile-title}
+
+[cols="1,3", options="header", grid=all, frame=none, stripes=even, width=100%]
+|===
+|{about-me} |Baptiste ROY - 20/08/1990
+
+|{contact-social}
+a|icon:envelope[] mailto:roy.baptiste45@gmail.com[E-Mail roy.baptiste45@gmail.com, role="external", window="_blank"] 
+
+icon:github[] https://github.com/roybaptiste[Github roybaptiste, role="external", window="_blank"] 
+
+icon:twitter[] https://twitter.com/BaptisteRoy37[@BaptisteRoy37, role="external", window="_blank"] 
+
+icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role="external", window="_blank"] 
+
+|{location} |10 passage Contreau Le Mans
+
+|{phone} |+33(0)6 63 15 30 15
+|===
+
+[#professional-experience]
+== icon:briefcase[] {professional-experience-title}
+
+// --- Experience 1 ---
+:exp_title: {exp1-title}
+:exp_period_label: {exp1-period-label}
+:exp_period_value: {exp1-period-value}
+:exp_desc_label: {exp1-desc-label}
+:exp_desc_content: {exp1-desc-content}
+:exp_tech_label: {exp1-tech-label}
+:exp_tech_content: {exp1-tech-content}
+include::partials/_experience_item.adoc[]
+:!exp_title:
+:!exp_period_label:
+:!exp_period_value:
+:!exp_desc_label:
+:!exp_desc_content:
+:!exp_tech_label:
+:!exp_tech_content:
+
+// --- Experience 2 ---
+:exp_title: {exp2-title}
+:exp_period_label: {exp2-period-label}
+:exp_period_value: {exp2-period-value}
+:exp_desc_label: {exp2-desc-label}
+:exp_desc_content: {exp2-desc-content}
+:exp_tech_label: {exp2-tech-label}
+:exp_tech_content: {exp2-tech-content}
+include::partials/_experience_item.adoc[]
+:!exp_title:
+:!exp_period_label:
+:!exp_period_value:
+:!exp_desc_label:
+:!exp_desc_content:
+:!exp_tech_label:
+:!exp_tech_content:
+
+// --- Experience 3 ---
+:exp_title: {exp3-title}
+:exp_period_label: {exp3-period-label}
+:exp_period_value: {exp3-period-value}
+:exp_desc_label: {exp3-desc-label}
+:exp_desc_content: {exp3-desc-content}
+:exp_tech_label: {exp3-tech-label}
+:exp_tech_content: {exp3-tech-content}
+include::partials/_experience_item.adoc[]
+:!exp_title:
+:!exp_period_label:
+:!exp_period_value:
+:!exp_desc_label:
+:!exp_desc_content:
+:!exp_tech_label:
+:!exp_tech_content:
+
+// --- Experience 4 ---
+:exp_title: {exp4-title}
+:exp_period_label: {exp4-period-label}
+:exp_period_value: {exp4-period-value}
+:exp_desc_label: {exp4-desc-label}
+:exp_desc_content: {exp4-desc-content}
+:exp_tech_label: {exp4-tech-label}
+:exp_tech_content: {exp4-tech-content}
+include::partials/_experience_item.adoc[]
+:!exp_title:
+:!exp_period_label:
+:!exp_period_value:
+:!exp_desc_label:
+:!exp_desc_content:
+:!exp_tech_label:
+:!exp_tech_content:
+
+// --- Experience 5 ---
+:exp_title: {exp5-title}
+:exp_period_label: {exp5-period-label}
+:exp_period_value: {exp5-period-value}
+:exp_desc_label: {exp5-desc-label}
+:exp_desc_content: {exp5-desc-content}
+:exp_tech_label: {exp5-tech-label}
+:exp_tech_content: {exp5-tech-content}
+include::partials/_experience_item.adoc[]
+:!exp_title:
+:!exp_period_label:
+:!exp_period_value:
+:!exp_desc_label:
+:!exp_desc_content:
+:!exp_tech_label:
+:!exp_tech_content:
+
+// --- Experience 6 ---
+:exp_title: {exp6-title}
+:exp_period_label: {exp6-period-label}
+:exp_period_value: {exp6-period-value}
+:exp_desc_label: {exp6-desc-label}
+:exp_desc_content: {exp6-desc-content}
+:exp_tech_label: {exp6-tech-label}
+:exp_tech_content: {exp6-tech-content}
+include::partials/_experience_item.adoc[]
+:!exp_title:
+:!exp_period_label:
+:!exp_period_value:
+:!exp_desc_label:
+:!exp_desc_content:
+:!exp_tech_label:
+:!exp_tech_content:
+
+// --- Experience 7 ---
+:exp_title: {exp7-title}
+:exp_period_label: {exp7-period-label}
+:exp_period_value: {exp7-period-value}
+:exp_desc_label: {exp7-desc-label}
+:exp_desc_content: {exp7-desc-content}
+:exp_tech_label: {exp7-tech-label}
+:exp_tech_content: {exp7-tech-content}
+include::partials/_experience_item.adoc[]
+:!exp_title:
+:!exp_period_label:
+:!exp_period_value:
+:!exp_desc_label:
+:!exp_desc_content:
+:!exp_tech_label:
+:!exp_tech_content:
+
+// --- Experience 8 ---
+:exp_title: {exp8-title}
+:exp_period_label: {exp8-period-label}
+:exp_period_value: {exp8-period-value}
+:exp_desc_label: {exp8-desc-label}
+:exp_desc_content: {exp8-desc-content}
+:exp_tech_label: {exp8-tech-label}
+:exp_tech_content: {exp8-tech-content}
+include::partials/_experience_item.adoc[]
+:!exp_title:
+:!exp_period_label:
+:!exp_period_value:
+:!exp_desc_label:
+:!exp_desc_content:
+:!exp_tech_label:
+:!exp_tech_content:
+
+## [.section-header]#icon:graduation-cap[] {education-title}#
+
+// --- Education 1 ---
+:edu_title: {edu1-title}
+:edu_instructor_label: {edu1-instructor-label}
+:edu_instructor_value: {edu1-instructor-value}
+:edu_duration_label: {edu1-duration-label}
+:edu_duration_value: {edu1-duration-value}
+:edu_date_label: {edu1-date-label}
+:edu_date_value: {edu1-date-value}
+include::partials/_education_item.adoc[]
+:!edu_title:
+:!edu_instructor_label:
+:!edu_instructor_value:
+:!edu_duration_label:
+:!edu_duration_value:
+:!edu_date_label:
+:!edu_date_value:
+
+// --- Education 2 ---
+:edu_title: {edu2-title}
+:edu_instructor_label: {edu2-instructor-label}
+:edu_instructor_value: {edu2-instructor-value}
+:edu_duration_label: {edu2-duration-label}
+:edu_duration_value: {edu2-duration-value}
+:edu_date_label: {edu2-date-label}
+:edu_date_value: {edu2-date-value}
+include::partials/_education_item.adoc[]
+:!edu_title:
+:!edu_instructor_label:
+:!edu_instructor_value:
+:!edu_duration_label:
+:!edu_duration_value:
+:!edu_date_label:
+:!edu_date_value:
+
+// --- Education 3 ---
+:edu_title: {edu3-title}
+:edu_instructor_label: {edu3-instructor-label}
+:edu_instructor_value: {edu3-instructor-value}
+:edu_description_label: {edu3-description-label}
+:edu_description_value: {edu3-description-value}
+:edu_duration_label: {edu3-duration-label}
+:edu_duration_value: {edu3-duration-value}
+:edu_date_label: {edu3-date-label}
+:edu_date_value: {edu3-date-value}
+include::partials/_education_item.adoc[]
+:!edu_title:
+:!edu_instructor_label:
+:!edu_instructor_value:
+:!edu_description_label:
+:!edu_description_value:
+:!edu_duration_label:
+:!edu_duration_value:
+:!edu_date_label:
+:!edu_date_value:
+
+// --- Education 4 ---
+:edu_title: {edu4-title}
+:edu_diploma_label: {edu4-diploma-label}
+:edu_diploma_value: {edu4-diploma-value}
+include::partials/_education_item.adoc[]
+:!edu_title:
+:!edu_diploma_label:
+:!edu_diploma_value:
+
+[#conferences]
+== icon:microphone[] {speaking-title}
+
+// --- Talk 1 ---
+:talk_title: {talk1-title}
+:talk_org_label: {talk1-org-label}
+:talk_org_value: {talk1-org-value}
+:talk_link_label: {talk1-link-label}
+:talk_link_value: {talk1-link-value}
+include::partials/_conference_item.adoc[]
+:!talk_title:
+:!talk_org_label:
+:!talk_org_value:
+:!talk_link_label:
+:!talk_link_value:
+
+// --- Talk 2 ---
+:talk_title: {talk2-title}
+:talk_status_label: {talk2-status-label}
+:talk_status_value: {talk2-status-value}
+include::partials/_conference_item.adoc[]
+:!talk_title:
+:!talk_status_label:
+:!talk_status_value:
+
+[#skills]
+== icon:cogs[] {skills-title}
+
+[.columns]
+=====
+[.column]
+--
+[.card.skills]
+====
+[discrete]
+=== {languages-title}
+
+[cols="2,3", grid=rows, frame=none, stripes=even]
+|===
+|{lang-fr} | icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] {lang-fr-level}
+|{lang-en} | icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star-o[role="accent"] {lang-en-level}
+|{lang-es} | icon:star[role="accent"] icon:star[role="accent"] icon:star-o[role="accent"] icon:star-o[role="accent"] icon:star-o[role="accent"] {lang-es-level}
+|===
+====
+--
+
+[.column]
+--
+[.card.skills.border]
+====
+[discrete]
+=== {interests-title}
+
+* icon:search[] {interest1}
+* icon:home[] {interest2}
+* icon:desktop[] {interest3}
+* icon:users[] {interest4}
+* icon:gamepad[] {interest5}
+* icon:bicycle[] {interest6}
+* icon:book[] {interest7}
+** {reading-item1}
+** {reading-item2}
+====
+--
+=====
+
+[.footer]
+--
+{footer-text}
+-- 

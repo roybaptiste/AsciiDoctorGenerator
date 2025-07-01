@@ -1,99 +1,36 @@
-= CV - Roy Baptiste
-:nofooter:
-:noheader:
-:icons: font
-:email: roy.baptiste45@gmail.com
-:sectlinks:
-:data-uri:
-:doctype: article
-:toc: left
-:toclevels: 2
-:experimental:
-:source-highlighter: highlightjs
-:stylesdir: css
-:stylesheet: custom.css
-:linkattrs:
-:sectanchors:
-:favicon: favicon.ico
-:main-color: #4B6A88
-:second-color: #44546A
-:third-color: #3C4A5A
-:table-stripes: even
-:icons-set: fas
-:stem:
-:header-footer: false
+// English Language File
 
-++++
-<div style="display:none">
-<h1>Resume | Baptiste ROY</h1>
-</div>
-++++
+// ---- Header ----
+:doc-title: CV - Roy Baptiste
+:header-title: Resume | Baptiste ROY
+:job-title: EXPERT DEVOPS ENGINEER - OBSERVABILITY ADMIN
+:contact-info: 34 rue Landreloup - Orléans | roy.baptiste45@gmail.com <a href="https://www.linkedin.com/in/roy-baptiste/" target="_blank">roy-baptiste</a> | Driving License
+:lang-switcher: <a href="../cv/" title="Version Française">🇫🇷</a>
 
+// ---- Personal Profile ----
+:personal-profile-title: Personal Profile
+:about-me: About Me
+:contact-social: Contact & Social Networks
+:location: Location
+:phone: Phone
 
+// ---- Professional Experience ----
+:professional-experience-title: Professional Experience
 
-++++
-<div class="cv-header">
-  <div class="language-switcher">
-    <a href="../cv/" title="Version Française">🇫🇷</a>
-  </div>
-  <h1>ROY BAPTISTE</h1>
-  <h2>EXPERT DEVOPS ENGINEER - OBSERVABILITY ADMIN</h2>
-  <div class="cv-contact">34 rue Landreloup - Orléans | roy.baptiste45@gmail.com <a href="https://www.linkedin.com/in/roy-baptiste/" target="_blank">roy-baptiste</a> | Driving License</div>
-</div>
-++++
-
-[#personal-profile]
-== icon:user[] Personal Profile
-
-[cols="1,3", options="header", grid=all, frame=none, stripes=even, width=100%]
-|===
-|About Me |Baptiste ROY - 20/08/1990
-
-|Contact & Social Networks
-a|icon:envelope[] mailto:roy.baptiste45@gmail.com[E-Mail roy.baptiste45@gmail.com, role="external", window="_blank"] 
-
-icon:github[] https://github.com/roybaptiste[Github roybaptiste, role="external", window="_blank"] 
-
-icon:twitter[] https://twitter.com/BaptisteRoy37[@BaptisteRoy37, role="external", window="_blank"] 
-
-icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role="external", window="_blank"] 
-
-|Location |10 passage Contreau Le Mans
-
-|Phone |+33(0)6 63 15 30 15
-|===
-
-[#professional-experience]
-== icon:briefcase[] Professional Experience
-
-[.timeline]
-====
-++++
-<div class="experience-title">OBSERVABILITY CONSULTING ARCHITECT - AGIRC-ARRCO (APSIDE MISSION)</div>
-++++
-
-[horizontal]
-Period:: icon:calendar[] `June 2025` - icon:calendar-check-o[role="accent"] `June 2025 (Expert Consultation)`
-
-[.card.experience]
---
-[.card-title]
-*Description and Responsibilities:*
-
-[.card-content]
+// AGIRC-ARRCO
+:exp1-title: OBSERVABILITY CONSULTING ARCHITECT - AGIRC-ARRCO (APSIDE MISSION)
+:exp1-period-label: Period
+:exp1-period-value: icon:calendar[] `June 2025` - icon:calendar-check-o[role="accent"] `June 2025 (Expert Consultation)`
+:exp1-desc-label: *Description and Responsibilities:*
+:exp1-desc-content: |
 * **Strategic Audit & Consulting:** Led a 2-day on-site audit with the client to analyze the observability platform (PoC) and co-develop the roadmap for industrialization.
 * **Target Architecture Definition:** Designed and formalized a 3-tier OpenTelemetry architecture (Agent, DaemonSet Collector, HA Gateway) to ensure scalability and resilience.
 * **In-depth Technical Expertise:** Steered technical decisions (DaemonSet vs. Deployment), defined filtering strategies (sampling/tail sampling), and optimized the Tempo backend and its components (Ingester, Querier...).
 * **Advanced Feature Implementation:** Implemented advanced Prometheus integration (`remote_write`, `exemplars`) and enabled **Service Graphs** in Grafana to visualize application dependencies.
 * **Platform Security:** Designed and deployed alerting rules (PrometheusRules) for active security monitoring of the observability stack (access, data flows, etc.).
 * **Knowledge Transfer:** Delivered a comprehensive architecture and optimization document, serving as a technical reference for the platform's industrialization.
-
---
-
-[.card-title]
-*Technologies and Skills:*
-
-[.tech-tags]
+:exp1-tech-label: *Technologies and Skills:*
+:exp1-tech-content: |
 [cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
 |===
 |[.tag]#OpenTelemetry (Collector, Operator)# |[.tag]#Grafana Tempo# |[.tag]#Distributed Architecture#
@@ -101,35 +38,20 @@ Period:: icon:calendar[] `June 2025` - icon:calendar-check-o[role="accent"] `Jun
 |[.tag]#Service Graphs & Exemplars# |[.tag]#Security (JWT, PrometheusRules)# |[.tag]#Consulting & Strategy#
 |[.tag]#MinIO# |[.tag]#IaC / GitOps# |[.tag]#Performance Optimization#
 |===
-====
 
-[.timeline]
-====
-++++
-<div class="experience-title">DEVOPS EXPERT - ON-PREM / CLOUD ARCHITECT & ADMINISTRATOR AT PAYMED (APSIDE MISSION)</div>
-++++
-
-[horizontal]
-Period:: icon:calendar[] `May 2025` - icon:calendar-check-o[role="accent"] `Present`
-
-[.card.experience]
---
-[.card-title]
-*Description and Responsibilities:*
-
-[.card-content]
+// PAYMED
+:exp2-title: DEVOPS EXPERT - ON-PREM / CLOUD ARCHITECT & ADMINISTRATOR AT PAYMED (APSIDE MISSION)
+:exp2-period-label: Period
+:exp2-period-value: icon:calendar[] `May 2025` - icon:calendar-check-o[role="accent"] `Present`
+:exp2-desc-label: *Description and Responsibilities:*
+:exp2-desc-content: |
 * **Oversaw a multi-environment Kubernetes (RKE2) platform:** responsible for administration, operational stability, incident resolution, and continuous optimization of performance, security, and resilience.
 * **Defined the technical roadmap:** created architecture design documents to drive strategic evolutions (governance, cost optimization, new components) and ensure alignment with business objectives.
 * **CI/CD Software Factory Engineering:** designed and implemented a comprehensive toolchain (Tekton, ArgoCD, Harbor) to automate and secure the entire application lifecycle.
 * **Guided development teams:** provided consulting on software architecture and application performance optimization within the Kubernetes ecosystem.
 * **Updated architecture documentation** and operational procedures to reflect system evolutions.
-
---
-
-[.card-title]
-*Technologies and Skills:*
-
-[.tech-tags]
+:exp2-tech-label: *Technologies and Skills:*
+:exp2-tech-content: |
 [cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
 |===
 |[.tag]#Kubernetes / RKE2# |[.tag]#Gravitee# |[.tag]#IaC / GitOps#
@@ -137,35 +59,21 @@ Period:: icon:calendar[] `May 2025` - icon:calendar-check-o[role="accent"] `Pres
 |[.tag]#RabbitMQ# |[.tag]#Longhorn# |[.tag]#Security (WAF, NetPol)#
 |[.tag]#RHEL# |[.tag]#Nginx# |[.tag]#Microservices Architecture#
 |===
-====
 
-[.timeline]
-====
-++++
-<div class="experience-title">DEVOPS EXPERT - OBSERVABILITY ENGINEER AT APSIDE</div>
-++++
-
-[horizontal]
-Period:: icon:calendar[] `February 2024` - icon:calendar-check-o[role="accent"] `Present`
-
-[.card.experience]
---
-[.card-title]
-*Description and Responsibilities:*
-
-[.card-content]
+// APSIDE
+:exp3-title: DEVOPS EXPERT - OBSERVABILITY ENGINEER AT APSIDE
+:exp3-period-label: Period
+:exp3-period-value: icon:calendar[] `February 2024` - icon:calendar-check-o[role="accent"] `Present`
+:exp3-desc-label: *Description and Responsibilities:*
+:exp3-desc-content: |
 * Developed an observability demonstration platform (React/Python - FastAPI/Java - Quarkus).
 * Implemented an OSS stack: OpenTelemetry / OpenTelemetry Exporter / QuickWit / Grafana.
 * Automated the deployment of Harness Open Source (Gitness) - Pipelines.
 * Preparing for the Grafana Solution Architect certification.
 * Interest in Artificial Intelligence.
 * Speaker on the topic of observability at Google Developer Group.
---
-
-[.card-title]
-*Technologies and Skills:*
-
-[.tech-tags]
+:exp3-tech-label: *Technologies and Skills:*
+:exp3-tech-content: |
 [cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
 |===
 |[.tag]#Python# |[.tag]#Quarkus# |[.tag]#Exemplars / Mimir#
@@ -173,23 +81,13 @@ Period:: icon:calendar[] `February 2024` - icon:calendar-check-o[role="accent"] 
 |[.tag]#FastAPI# |[.tag]#Grafana# |[.tag]#Automation#
 |[.tag]#Java 23# |[.tag]#QuickWit# |
 |===
-====
 
-[.timeline]
-====
-++++
-<div class="experience-title">DYNATRACE ADMINISTRATOR - LEAD INTEGRATOR - INSURANCE AT COVEA (APSIDE MISSION)</div>
-++++
-
-[horizontal]
-Period:: icon:calendar[] `March 2024` - icon:calendar-check-o[] `April 2025`
-
-[.card.experience]
---
-[.card-title]
-*Description and Responsibilities:*
-
-[.card-content]
+// COVEA
+:exp4-title: DYNATRACE ADMINISTRATOR - LEAD INTEGRATOR - INSURANCE AT COVEA (APSIDE MISSION)
+:exp4-period-label: Period
+:exp4-period-value: icon:calendar[] `March 2024` - icon:calendar-check-o[] `April 2025`
+:exp4-desc-label: *Description and Responsibilities:*
+:exp4-desc-content: |
 * Implemented observability in a Kubernetes (OpenShift) / Bare-metal / VM environment across various technologies (Java/Wildfly...).
 * Interfaced with observability (AppDynamics/Zabbix) and hypervision (Splunk) solutions, integrating with incident management (ServiceNow).
 * Decommissioned and optimized application components.
@@ -204,12 +102,8 @@ Period:: icon:calendar[] `March 2024` - icon:calendar-check-o[] `April 2025`
 * Integrated and optimized hot-path log streaming to the Dynatrace solution.
 * Provided technical and functional support to integrator teams on the Dynatrace solution.
 * Wrote documentation for the different phases of onboarding a COVEA application to the Dynatrace solution.
---
-
-[.card-title]
-*Technologies and Skills:*
-
-[.tech-tags]
+:exp4-tech-label: *Technologies and Skills:*
+:exp4-tech-content: |
 [cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
 |===
 |[.tag]#Dynatrace# |[.tag]#Python# |[.tag]#Splunk#
@@ -217,23 +111,13 @@ Period:: icon:calendar[] `March 2024` - icon:calendar-check-o[] `April 2025`
 |[.tag]#Technical Documentation# |[.tag]#AppDynamics# |
 |[.tag]#OpenShift/Kubernetes# |[.tag]#Zabbix# |
 |===
-====
 
-[.timeline]
-====
-++++
-<div class="experience-title">DEVELOPER ANALYST - DEVOPS AT MICROTEC</div>
-++++
-
-[horizontal]
-Period:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
-
-[.card.experience]
---
-[.card-title]
-*Description and Responsibilities:*
-
-[.card-content]
+// MICROTEC
+:exp5-title: DEVELOPER ANALYST - DEVOPS AT MICROTEC
+:exp5-period-label: Period
+:exp5-period-value: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
+:exp5-desc-label: *Description and Responsibilities:*
+:exp5-desc-content: |
 * Responsible for designing and deploying new modules and enhancements for a Delphi / Firebird application.
 * Provided Level 3 support for the Optima solution, including phone support and ticket management for resolving issues.
 * Created requests and managed customer feedback to ensure satisfaction and effective problem resolution.
@@ -242,12 +126,8 @@ Period:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
 * Configured Traefik Ingress rules, managed an internal registry, handled data persistence, and set up a CI/CD pipeline.
 * Acquired skills in optimization and best practices, particularly regarding Kubernetes cluster security and high availability.
 * Designed and developed internal tools and test servers to improve operational efficiency and performance.
---
-
-[.card-title]
-*Technologies and Skills:*
-
-[.tech-tags]
+:exp5-tech-label: *Technologies and Skills:*
+:exp5-tech-content: |
 [cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
 |===
 |[.tag]#Pascal / Delphi# |[.tag]#Ansible# |
@@ -255,23 +135,13 @@ Period:: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
 |[.tag]#Customer / Technical Support# |[.tag]#Traefik# |
 |[.tag]#Kubernetes / K3S# | |
 |===
-====
 
-[.timeline]
-====
-++++
-<div class="experience-title">DEVOPS / INFRASTRUCTURE AT GEOVELO - LA COMPAGNIE DES MOBILITÉS</div>
-++++
-
-[horizontal]
-Period:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
-
-[.card.experience]
---
-[.card-title]
-*DevOps - Software Infrastructure Description:*
-
-[.card-content]
+// GEOVELO
+:exp6-title: DEVOPS / INFRASTRUCTURE AT GEOVELO - LA COMPAGNIE DES MOBILITÉS
+:exp6-period-label: Period
+:exp6-period-value: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
+:exp6-desc-label: *DevOps - Software Infrastructure Description:*
+:exp6-desc-content: |
 * Adapted and optimized monolithic services into microservices using Docker containerization.
 * Asynchronously managed the creation of GIS databases.
 * Automated the production pipeline towards continuous and resilient deployment in collaboration with the developer and GIS teams.
@@ -283,12 +153,8 @@ Period:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
 * Deployed various Angular frontends via Traefik.
 * Deployed route calculation and geocoding infrastructure.
 * Implemented Docker Swarm orchestration then migrated to a managed Kubernetes cluster on Scaleway - GitlabCI Pipeline.
---
-
-[.card-title]
-*Technologies - Languages:*
-
-[.tech-tags]
+:exp6-tech-label: *Technologies - Languages:*
+:exp6-tech-content: |
 [cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
 |===
 |[.tag]#Docker / Compose# |[.tag]#Gitlab CI – Travis# |
@@ -296,23 +162,13 @@ Period:: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
 |[.tag]#Nginx# |[.tag]#Go (docker API) - Bash – Python - Angular# |
 |[.tag]#Terraform# |[.tag]#Cloud provider - Scaleway# |
 |===
-====
 
-[.timeline]
-====
-++++
-<div class="experience-title">DEVELOPER / PROJECT MANAGER AT CMRP/SELFONE</div>
-++++
-
-[horizontal]
-Period:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
-
-[.card.experience]
---
-[.card-title]
-*Developer / Project Management Description:*
-
-[.card-content]
+// CMRP/SELFONE
+:exp7-title: DEVELOPER / PROJECT MANAGER AT CMRP/SELFONE
+:exp7-period-label: Period
+:exp7-period-value: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
+:exp7-desc-label: *Developer / Project Management Description:*
+:exp7-desc-content: |
 * Developed native Android mobile applications (for Selfone and Crédit Agricole).
 * Developed and deployed websites and WordPress CMS.
 * Understood client needs / Wrote functional and technical specifications.
@@ -321,12 +177,8 @@ Period:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
 * Provided hotline support for IP Telephony, Servers, infrastructure, and ISP domains.
 * Developed bash scripts to automate remote session restarts via telnet.
 * Physically and logically installed servers / Virtualized client machines.
---
-
-[.card-title]
-*Technologies - Roles - Languages:*
-
-[.tech-tags]
+:exp7-tech-label: *Technologies - Roles - Languages:*
+:exp7-tech-content: |
 [cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
 |===
 |[.tag]#Help Desk# |[.tag]#Corporate Networking# |
@@ -334,149 +186,94 @@ Period:: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
 |[.tag]#Technical Hotline# |[.tag]#Telnet# |
 |[.tag]#Proxmox# |[.tag]#PHP 7# |
 |===
-====
 
-[.timeline]
-====
-++++
-<div class="experience-title">MULTIGAMING ADMINISTRATOR AT TEAM FANTASY</div>
-++++
-
-[horizontal]
-Period:: icon:calendar[] `2014` - icon:calendar-check-o[] `2015`
-
-[.card.experience]
---
-[.card-title]
-*Description and Responsibilities:*
-
-[.card-content]
+// TEAM FANTASY
+:exp8-title: MULTIGAMING ADMINISTRATOR AT TEAM FANTASY
+:exp8-period-label: Period
+:exp8-period-value: icon:calendar[] `2014` - icon:calendar-check-o[] `2015`
+:exp8-desc-label: *Description and Responsibilities:*
+:exp8-desc-content: |
 * Administered, managed, and led a section of 300 members within a multi-gaming association of 2000 people.
 * Created the website.
---
-
-[.card-title]
-*Technologies and Skills:*
-
-[.tech-tags]
+:exp8-tech-label: *Technologies and Skills:*
+:exp8-tech-content: |
 [cols="1,1,1", grid=none, frame=none, border=0, stripes=none, class="competence-table"]
 |===
 |[.tag]#Team Management# |[.tag]#Web Development# |
 |[.tag]#Community management# |[.tag]#Administration# |
 |===
-====
 
-## [.section-header]#icon:graduation-cap[] Education & Training#
+// ---- Education & Training ----
+:education-title: Education & Training
 
-[.timeline]
-====
-++++
-<div class="education-title">EMEA GRAFANA PARTNER BOOTCAMP (INTERNATIONAL) - OFFICIAL TRAINING</div>
-++++
+// EMEA
+:edu1-title: EMEA GRAFANA PARTNER BOOTCAMP (INTERNATIONAL) - OFFICIAL TRAINING
+:edu1-instructor-label: Instructor
+:edu1-instructor-value: icon:user[] Naveen KUMAR
+:edu1-duration-label: Duration
+:edu1-duration-value: icon:clock-o[] 4 days
+:edu1-date-label: Date
+:edu1-date-value: icon:calendar[] `2025`
 
-[horizontal]
-Instructor:: icon:user[] Naveen KUMAR
-Duration:: icon:clock-o[] 4 days
-Date:: icon:calendar[] `2025`
-====
+// DYNATRACE POWERUSER
+:edu2-title: DYNATRACE POWERUSER - OFFICIAL TRAINING
+:edu2-instructor-label: Instructor
+:edu2-instructor-value: icon:user[] Ousmane DIALLO - Delivery Architect Dynatrace
+:edu2-duration-label: Duration
+:edu2-duration-value: icon:clock-o[] 3 days
+:edu2-date-label: Date
+:edu2-date-value: icon:calendar[] `2024`
 
-[.timeline]
-====
-++++
-<div class="education-title">DYNATRACE POWERUSER - OFFICIAL TRAINING</div>
-++++
+// DYNATRACE EXPERTISE
+:edu3-title: DYNATRACE - FROM CONCEPT TO EXPERTISE
+:edu3-instructor-label: Instructor
+:edu3-instructor-value: icon:user[] Martin LEKPA - SPARKS
+:edu3-description-label: Description
+:edu3-description-value: icon:info-circle[] Jointly conducted training - Creation of a dedicated observability learning platform.
+:edu3-duration-label: Duration
+:edu3-duration-value: icon:clock-o[] 2 days
+:edu3-date-label: Date
+:edu3-date-value: icon:calendar[] `2025`
 
-[horizontal]
-Instructor:: icon:user[] Ousmane DIALLO - Delivery Architect Dynatrace
-Duration:: icon:clock-o[] 3 days
-Date:: icon:calendar[] `2024`
-====
+// HND
+:edu4-title: HND IN IT SERVICES FOR ORGANIZATIONS
+:edu4-diploma-label: Diploma
+:edu4-diploma-value: icon:graduation-cap[] Obtained in `2015`
 
-[.timeline]
-====
-++++
-<div class="education-title">DYNATRACE - FROM CONCEPT TO EXPERTISE</div>
-++++
+// ---- Public Speaking ----
+:speaking-title: Public Speaking
 
-[horizontal]
-Instructor:: icon:user[] Martin LEKPA - SPARKS
-Description:: icon:info-circle[] Jointly conducted training - Creation of a dedicated observability learning platform.
-Duration:: icon:clock-o[] 2 days
-Date:: icon:calendar[] `2025`
-====
+// TALK 1
+:talk1-title: "Ok boomer, stop just monitoring your infra" - A detailed introduction to monitoring / observability
+:talk1-org-label: Organization
+:talk1-org-value: icon:users[] Google Developer Group
+:talk1-link-label: Link
+:talk1-link-value: icon:youtube[] https://www.youtube.com/watch?v=TO_BYULeOes[Watch the talk, role="external", window="_blank"]
 
-[.timeline]
-====
-++++
-<div class="education-title">HND IN IT SERVICES FOR ORGANIZATIONS</div>
-++++
+// TALK 2
+:talk2-title: "OSS 404: Le Mans is not responding" - Implementing an Open Source OpenTelemetry/Grafana/Quickwit stack
+:talk2-status-label: Status
+:talk2-status-value: icon:clock-o[] Upcoming
 
-[horizontal]
-Diploma:: icon:graduation-cap[] Obtained in `2015`
-====
+// ---- Skills ----
+:skills-title: Skills
+:languages-title: Languages
+:lang-fr: French
+:lang-en: English
+:lang-es: Spanish
+:lang-fr-level: (Native)
+:lang-en-level: (Technical)
+:lang-es-level: (Basic)
+:interests-title: Interests
+:interest1: Technology Watch
+:interest2: Home Automation
+:interest3: Windows / Linux / Debian / Mac
+:interest4: IT Conferences
+:interest5: Online Gaming
+:interest6: Mountain Biking
+:interest7: Reading
+:reading-item1: Clean Code
+:reading-item2: The Phoenix Project (DevOps)
 
-[#conferences]
-== icon:microphone[] Public Speaking
-
-[.card.conference]
-====
-"Ok boomer, stop just monitoring your infra" - A detailed introduction to monitoring / observability
-
-[horizontal]
-Organization:: icon:users[] Google Developer Group
-Link:: icon:youtube[] https://www.youtube.com/watch?v=TO_BYULeOes[Watch the talk, role="external", window="_blank"]
-====
-
-[.card.conference]
-====
-"OSS 404: Le Mans is not responding" - Implementing an Open Source OpenTelemetry/Grafana/Quickwit stack
-
-[horizontal]
-Status:: icon:clock-o[] Upcoming
-====
-
-[#skills]
-== icon:cogs[] Skills
-
-[.columns]
-=====
-[.column]
---
-[.card.skills]
-====
-[discrete]
-=== Languages
-
-[cols="2,3", grid=rows, frame=none, stripes=even]
-|===
-|French | icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] (Native)
-|English | icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star[role="accent"] icon:star-o[role="accent"] (Technical)
-|Spanish | icon:star[role="accent"] icon:star[role="accent"] icon:star-o[role="accent"] icon:star-o[role="accent"] icon:star-o[role="accent"] (Basic)
-|===
-====
---
-
-[.column]
---
-[.card.skills.border]
-====
-[discrete]
-=== Interests
-
-* icon:search[] Technology Watch
-* icon:home[] Home Automation
-* icon:desktop[] Windows / Linux / Debian / Mac
-* icon:users[] IT Conferences
-* icon:gamepad[] Online Gaming
-* icon:bicycle[] Mountain Biking
-* icon:book[] Reading
-** Clean Code
-** The Phoenix Project (DevOps)
-====
---
-=====
-
-[.footer]
---
-© 2025 Baptiste ROY - CV generated with AsciiDoctor
---
+// ---- Footer ----
+:footer-text: © 2025 Baptiste ROY - CV generated with AsciiDoctor 

@@ -9,7 +9,8 @@ services:
   html-fr:
     <<: *asciidoctor-base
     command: >
-      asciidoctor /documents/fr/index.adoc
+      asciidoctor /documents/index.adoc
+      -a lang=fr
       -a cv-url="${CV_URL}"
       -a source-url="${SOURCE_URL}"
       -a short-owner-name="${SHORT_OWNER_NAME}"
@@ -20,7 +21,8 @@ services:
   html-en:
     <<: *asciidoctor-base
     command: >
-      asciidoctor /documents/en/index.adoc
+      asciidoctor /documents/index.adoc
+      -a lang=en
       -a cv-url="${CV_URL}"
       -a source-url="${SOURCE_URL}"
       -a short-owner-name="${SHORT_OWNER_NAME}"
@@ -31,7 +33,8 @@ services:
   pdf-fr:
     <<: *asciidoctor-base
     command: >
-      asciidoctor-pdf /documents/fr/index.adoc 
+      asciidoctor-pdf /documents/index.adoc 
+      -a lang=fr
       -a cv-url="${CV_URL}"
       -a source-url="${SOURCE_URL}"
       -a short-owner-name="${SHORT_OWNER_NAME}"
@@ -40,7 +43,8 @@ services:
   pdf-en:
     <<: *asciidoctor-base
     command: >
-      asciidoctor-pdf /documents/en/index.adoc 
+      asciidoctor-pdf /documents/index.adoc 
+      -a lang=en
       -a cv-url="${CV_URL}"
       -a source-url="${SOURCE_URL}"
       -a short-owner-name="${SHORT_OWNER_NAME}"

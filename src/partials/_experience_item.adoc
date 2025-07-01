@@ -1,0 +1,24 @@
+[.timeline]
+====
+++++
+<div class="experience-title">{exp_title}</div>
+++++
+
+[horizontal]
+{exp_period_label}:: {exp_period_value}
+
+[.card.experience]
+--
+[.card-title]
+{exp_desc_label}
+
+[.card-content]
+{exp_desc_content}
+--
+
+[.card-title]
+{exp_tech_label}
+
+[.tech-tags]
+{exp_tech_content}
+==== 

@@ -37,28 +37,28 @@ jobs:
       - name: Copy static files
         run: |
           cp src/index.html dist/index.html
-          cp src/fr/css/custom.css dist/cv/css/custom.css
-          cp src/en/css/custom.css dist/en/css/custom.css
+          cp src/css/custom.css dist/cv/css/custom.css
+          cp src/css/custom.css dist/en/css/custom.css
       
       - name: Generate French HTML
         uses: tonynv/asciidoctor-action@master
         with:
-          program: "asciidoctor src/fr/index.adoc -D dist/cv -o index.html"
+          program: "asciidoctor src/index.adoc -a lang=fr -D dist/cv -o index.html"
 
       - name: Generate English HTML
         uses: tonynv/asciidoctor-action@master
         with:
-          program: "asciidoctor src/en/index.adoc -D dist/en -o index.html"
+          program: "asciidoctor src/index.adoc -a lang=en -D dist/en -o index.html"
 
       - name: Generate French PDF
         uses: tonynv/asciidoctor-action@master
         with:
-          program: "asciidoctor-pdf src/fr/index.adoc -D dist/cv -o cv-${{ env.SHORT_OWNER_NAME }}-fr.pdf"
+          program: "asciidoctor-pdf src/index.adoc -a lang=fr -D dist/cv -o cv-${{ env.SHORT_OWNER_NAME }}-fr.pdf"
       
       - name: Generate English PDF
         uses: tonynv/asciidoctor-action@master
         with:
-          program: "asciidoctor-pdf src/en/index.adoc -D dist/en -o cv-${{ env.SHORT_OWNER_NAME }}-en.pdf"
+          program: "asciidoctor-pdf src/index.adoc -a lang=en -D dist/en -o cv-${{ env.SHORT_OWNER_NAME }}-en.pdf"
 
       - name: Upload CV artifacts
         uses: actions/upload-artifact@v4

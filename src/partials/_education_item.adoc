@@ -1,0 +1,13 @@
+[.timeline]
+====
+++++
+<div class="education-title">{edu_title}</div>
+++++
+
+[horizontal]
+ifdef::edu_instructor_label[{edu_instructor_label}:: {edu_instructor_value}]
+ifdef::edu_description_label[{edu_description_label}:: {edu_description_value}]
+ifdef::edu_diploma_label[{edu_diploma_label}:: {edu_diploma_value}]
+ifdef::edu_duration_label[{edu_duration_label}:: {edu_duration_value}]
+ifdef::edu_date_label[{edu_date_label}:: {edu_date_value}]
+==== 
