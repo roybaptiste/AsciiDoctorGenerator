@@ -22,18 +22,16 @@
 :exp1-period-label: Period
 :exp1-period-value: icon:calendar[] `June 2025` - icon:calendar-check-o[role="accent"] `June 2025 (Expert Consultation)`
 :exp1-desc-label: *Description and Responsibilities:*
-:exp1-desc-content: |
-* **Strategic Audit & Consulting:** Led a 2-day on-site audit with the client to analyze the observability platform (PoC) and co-develop the roadmap for industrialization.
-* **Target Architecture Definition:** Designed and formalized a 3-tier OpenTelemetry architecture (Agent, DaemonSet Collector, HA Gateway) to ensure scalability and resilience.
-* **In-depth Technical Expertise:** Steered technical decisions (DaemonSet vs. Deployment), defined filtering strategies (sampling/tail sampling), and optimized the Tempo backend and its components (Ingester, Querier...).
-* **Advanced Feature Implementation:** Implemented advanced Prometheus integration (`remote_write`, `exemplars`) and enabled **Service Graphs** in Grafana to visualize application dependencies.
-* **Platform Security:** Designed and deployed alerting rules (PrometheusRules) for active security monitoring of the observability stack (access, data flows, etc.).
+:exp1-desc-content: * **Strategic Audit & Consulting:** Led a 2-day on-site audit with the client to analyze the observability platform (PoC) and co-develop the roadmap for industrialization. \
+* **Target Architecture Definition:** Designed and formalized a 3-tier OpenTelemetry architecture (Agent, DaemonSet Collector, HA Gateway) to ensure scalability and resilience. \
+* **In-depth Technical Expertise:** Steered technical decisions (DaemonSet vs. Deployment), defined filtering strategies (sampling/tail sampling), and optimized the Tempo backend and its components (Ingester, Querier...). \
+* **Advanced Feature Implementation:** Implemented advanced Prometheus integration (`remote_write`, `exemplars`) and enabled **Service Graphs** in Grafana to visualize application dependencies. \
+* **Platform Security:** Designed and deployed alerting rules (PrometheusRules) for active security monitoring of the observability stack (access, data flows, etc.). \
 * **Knowledge Transfer:** Delivered a comprehensive architecture and optimization document, serving as a technical reference for the platform's industrialization.
 :exp1-tech-label: *Technologies and Skills:*
-:exp1-tech-rows:
-|[.tag]#OpenTelemetry (Collector, Operator)# |[.tag]#Grafana Tempo# |[.tag]#Distributed Architecture#
-|[.tag]#Prometheus (Remote Write, OTLP)# |[.tag]#Kubernetes (DaemonSet, NetPol)# |[.tag]#Sampling Strategy#
-|[.tag]#Service Graphs & Exemplars# |[.tag]#Security (JWT, PrometheusRules)# |[.tag]#Consulting & Strategy#
+:exp1-tech-rows: |[.tag]#OpenTelemetry (Collector, Operator)# |[.tag]#Grafana Tempo# |[.tag]#Distributed Architecture# \
+|[.tag]#Prometheus (Remote Write, OTLP)# |[.tag]#Kubernetes (DaemonSet, NetPol)# |[.tag]#Sampling Strategy# \
+|[.tag]#Service Graphs & Exemplars# |[.tag]#Security (JWT, PrometheusRules)# |[.tag]#Consulting & Strategy# \
 |[.tag]#MinIO# |[.tag]#IaC / GitOps# |[.tag]#Performance Optimization#
 
 // PAYMED
@@ -41,17 +39,15 @@
 :exp2-period-label: Period
 :exp2-period-value: icon:calendar[] `May 2025` - icon:calendar-check-o[role="accent"] `Present`
 :exp2-desc-label: *Description and Responsibilities:*
-:exp2-desc-content: |
-* **Oversaw a multi-environment Kubernetes (RKE2) platform:** responsible for administration, operational stability, incident resolution, and continuous optimization of performance, security, and resilience.
-* **Defined the technical roadmap:** created architecture design documents to drive strategic evolutions (governance, cost optimization, new components) and ensure alignment with business objectives.
-* **CI/CD Software Factory Engineering:** designed and implemented a comprehensive toolchain (Tekton, ArgoCD, Harbor) to automate and secure the entire application lifecycle.
-* **Guided development teams:** provided consulting on software architecture and application performance optimization within the Kubernetes ecosystem.
+:exp2-desc-content: * **Oversaw a multi-environment Kubernetes (RKE2) platform:** responsible for administration, operational stability, incident resolution, and continuous optimization of performance, security, and resilience. \
+* **Defined the technical roadmap:** created architecture design documents to drive strategic evolutions (governance, cost optimization, new components) and ensure alignment with business objectives. \
+* **CI/CD Software Factory Engineering:** designed and implemented a comprehensive toolchain (Tekton, ArgoCD, Harbor) to automate and secure the entire application lifecycle. \
+* **Guided development teams:** provided consulting on software architecture and application performance optimization within the Kubernetes ecosystem. \
 * **Updated architecture documentation** and operational procedures to reflect system evolutions.
 :exp2-tech-label: *Technologies and Skills:*
-:exp2-tech-rows:
-|[.tag]#Kubernetes / RKE2# |[.tag]#Gravitee# |[.tag]#IaC / GitOps#
-|[.tag]#Docker# |[.tag]#CloudNativePG (PostgreSQL)# |[.tag]#High Availability#
-|[.tag]#RabbitMQ# |[.tag]#Longhorn# |[.tag]#Security (WAF, NetPol)#
+:exp2-tech-rows: |[.tag]#Kubernetes / RKE2# |[.tag]#Gravitee# |[.tag]#IaC / GitOps# \
+|[.tag]#Docker# |[.tag]#CloudNativePG (PostgreSQL)# |[.tag]#High Availability# \
+|[.tag]#RabbitMQ# |[.tag]#Longhorn# |[.tag]#Security (WAF, NetPol)# \
 |[.tag]#RHEL# |[.tag]#Nginx# |[.tag]#Microservices Architecture#
 
 // APSIDE
@@ -59,18 +55,16 @@
 :exp3-period-label: Period
 :exp3-period-value: icon:calendar[] `February 2024` - icon:calendar-check-o[role="accent"] `Present`
 :exp3-desc-label: *Description and Responsibilities:*
-:exp3-desc-content: |
-* Developed an observability demonstration platform (React/Python - FastAPI/Java - Quarkus).
-* Implemented an OSS stack: OpenTelemetry / OpenTelemetry Exporter / QuickWit / Grafana.
-* Automated the deployment of Harness Open Source (Gitness) - Pipelines.
-* Preparing for the Grafana Solution Architect certification.
-* Interest in Artificial Intelligence.
+:exp3-desc-content: * Developed an observability demonstration platform (React/Python - FastAPI/Java - Quarkus). \
+* Implemented an OSS stack: OpenTelemetry / OpenTelemetry Exporter / QuickWit / Grafana. \
+* Automated the deployment of Harness Open Source (Gitness) - Pipelines. \
+* Preparing for the Grafana Solution Architect certification. \
+* Interest in Artificial Intelligence. \
 * Speaker on the topic of observability at Google Developer Group.
 :exp3-tech-label: *Technologies and Skills:*
-:exp3-tech-rows:
-|[.tag]#Python# |[.tag]#Quarkus# |[.tag]#Examplars / Mimir#
-|[.tag]#React# |[.tag]#OpenTelemetry# |[.tag]#Harness / Gitness#
-|[.tag]#FastAPI# |[.tag]#Grafana# |[.tag]#Automation#
+:exp3-tech-rows: |[.tag]#Python# |[.tag]#Quarkus# |[.tag]#Examplars / Mimir# \
+|[.tag]#React# |[.tag]#OpenTelemetry# |[.tag]#Harness / Gitness# \
+|[.tag]#FastAPI# |[.tag]#Grafana# |[.tag]#Automation# \
 |[.tag]#Java 23# |[.tag]#QuickWit# |
 
 // COVEA
@@ -78,26 +72,24 @@
 :exp4-period-label: Period
 :exp4-period-value: icon:calendar[] `March 2024` - icon:calendar-check-o[] `April 2025`
 :exp4-desc-label: *Description and Responsibilities:*
-:exp4-desc-content: |
-* Implemented observability in a Kubernetes (OpenShift) / Bare-metal / VM environment across various technologies (Java/Wildfly...).
-* Interfaced with observability (AppDynamics/Zabbix) and hypervision (Splunk) solutions, integrating with incident management (ServiceNow).
-* Decommissioned and optimized application components.
-* Analyzed requirements and drove the evolution of standardization and solution rule implementation.
-* Led meetings with business and integration teams related to the activity pilot.
-* Understood diverse environments and adapted rules specific to business needs.
-* Authored user guides and became a driving force for solution adoption.
-* Designed and implemented a Python-based automated onboarding solution.
-* Developed Ansible playbooks to automate actions.
-* Utilized and created IaC automation rules via Monaco.
-* Theorized and implemented Service Level Objectives (SLOs).
-* Integrated and optimized hot-path log streaming to the Dynatrace solution.
-* Provided technical and functional support to integrator teams on the Dynatrace solution.
+:exp4-desc-content: * Implemented observability in a Kubernetes (OpenShift) / Bare-metal / VM environment across various technologies (Java/Wildfly...). \
+* Interfaced with observability (AppDynamics/Zabbix) and hypervision (Splunk) solutions, integrating with incident management (ServiceNow). \
+* Decommissioned and optimized application components. \
+* Analyzed requirements and drove the evolution of standardization and solution rule implementation. \
+* Led meetings with business and integration teams related to the activity pilot. \
+* Understood diverse environments and adapted rules specific to business needs. \
+* Authored user guides and became a driving force for solution adoption. \
+* Designed and implemented a Python-based automated onboarding solution. \
+* Developed Ansible playbooks to automate actions. \
+* Utilized and created IaC automation rules via Monaco. \
+* Theorized and implemented Service Level Objectives (SLOs). \
+* Integrated and optimized hot-path log streaming to the Dynatrace solution. \
+* Provided technical and functional support to integrator teams on the Dynatrace solution. \
 * Wrote documentation for the different phases of onboarding a COVEA application to the Dynatrace solution.
 :exp4-tech-label: *Technologies and Skills:*
-:exp4-tech-rows:
-|[.tag]#Dynatrace# |[.tag]#Python# |[.tag]#Splunk#
-|[.tag]#Ansible# |[.tag]#Monaco# |[.tag]#Automation#
-|[.tag]#Technical Documentation# |[.tag]#AppDynamics# |
+:exp4-tech-rows: |[.tag]#Dynatrace# |[.tag]#Python# |[.tag]#Splunk# \
+|[.tag]#Ansible# |[.tag]#Monaco# |[.tag]#Automation# \
+|[.tag]#Technical Documentation# |[.tag]#AppDynamics# | \
 |[.tag]#OpenShift/Kubernetes# |[.tag]#Zabbix# |
 
 // MICROTEC
@@ -105,20 +97,18 @@
 :exp5-period-label: Period
 :exp5-period-value: icon:calendar[] `2020` - icon:calendar-check-o[] `2023`
 :exp5-desc-label: *Description and Responsibilities:*
-:exp5-desc-content: |
-* Responsible for designing and deploying new modules and enhancements for a Delphi / Firebird application.
-* Provided Level 3 support for the Optima solution, including phone support and ticket management for resolving issues.
-* Created requests and managed customer feedback to ensure satisfaction and effective problem resolution.
-* Wrote detailed technical documentation and resolution procedures to ensure a better understanding of systems and processes.
-* Set up a K3s Kubernetes cluster with automated deployment via Ansible.
-* Configured Traefik Ingress rules, managed an internal registry, handled data persistence, and set up a CI/CD pipeline.
-* Acquired skills in optimization and best practices, particularly regarding Kubernetes cluster security and high availability.
+:exp5-desc-content: * Responsible for designing and deploying new modules and enhancements for a Delphi / Firebird application. \
+* Provided Level 3 support for the Optima solution, including phone support and ticket management for resolving issues. \
+* Created requests and managed customer feedback to ensure satisfaction and effective problem resolution. \
+* Wrote detailed technical documentation and resolution procedures to ensure a better understanding of systems and processes. \
+* Set up a K3s Kubernetes cluster with automated deployment via Ansible. \
+* Configured Traefik Ingress rules, managed an internal registry, handled data persistence, and set up a CI/CD pipeline. \
+* Acquired skills in optimization and best practices, particularly regarding Kubernetes cluster security and high availability. \
 * Designed and developed internal tools and test servers to improve operational efficiency and performance.
 :exp5-tech-label: *Technologies and Skills:*
-:exp5-tech-rows:
-|[.tag]#Pascal / Delphi# |[.tag]#Ansible# |
-|[.tag]#Firebird# |[.tag]#CI/CD Pipeline# |
-|[.tag]#Customer / Technical Support# |[.tag]#Traefik# |
+:exp5-tech-rows: |[.tag]#Pascal / Delphi# |[.tag]#Ansible# | \
+|[.tag]#Firebird# |[.tag]#CI/CD Pipeline# | \
+|[.tag]#Customer / Technical Support# |[.tag]#Traefik# | \
 |[.tag]#Kubernetes / K3S# | |
 
 // GEOVELO
@@ -126,23 +116,21 @@
 :exp6-period-label: Period
 :exp6-period-value: icon:calendar[] `2018` - icon:calendar-check-o[] `2019`
 :exp6-desc-label: *DevOps - Software Infrastructure Description:*
-:exp6-desc-content: |
-* Adapted and optimized monolithic services into microservices using Docker containerization.
-* Asynchronously managed the creation of GIS databases.
-* Automated the production pipeline towards continuous and resilient deployment in collaboration with the developer and GIS teams.
-* Optimized production deployment time from 1.5 weeks to 3 hours.
-* Deployed a mapping solution (geovelo.fr).
-* Deployed OpenStreetMap geographic databases on PostgreSQL.
-* Optimized Nginx reverse proxy (configuration and caching) with management of static sites served by Node/Angular.
-* Initiated contributions to the official Traefik Reverse Proxy documentation.
-* Deployed various Angular frontends via Traefik.
-* Deployed route calculation and geocoding infrastructure.
+:exp6-desc-content: * Adapted and optimized monolithic services into microservices using Docker containerization. \
+* Asynchronously managed the creation of GIS databases. \
+* Automated the production pipeline towards continuous and resilient deployment in collaboration with the developer and GIS teams. \
+* Optimized production deployment time from 1.5 weeks to 3 hours. \
+* Deployed a mapping solution (geovelo.fr). \
+* Deployed OpenStreetMap geographic databases on PostgreSQL. \
+* Optimized Nginx reverse proxy (configuration and caching) with management of static sites served by Node/Angular. \
+* Initiated contributions to the official Traefik Reverse Proxy documentation. \
+* Deployed various Angular frontends via Traefik. \
+* Deployed route calculation and geocoding infrastructure. \
 * Implemented Docker Swarm orchestration then migrated to a managed Kubernetes cluster on Scaleway - GitlabCI Pipeline.
 :exp6-tech-label: *Technologies - Languages:*
-:exp6-tech-rows:
-|[.tag]#Docker / Compose# |[.tag]#Gitlab CI – Travis# |
-|[.tag]#Kubernetes - Swarm - Traefik# |[.tag]#Debian# |
-|[.tag]#Nginx# |[.tag]#Go (docker API) - Bash – Python - Angular# |
+:exp6-tech-rows: |[.tag]#Docker / Compose# |[.tag]#Gitlab CI – Travis# | \
+|[.tag]#Kubernetes - Swarm - Traefik# |[.tag]#Debian# | \
+|[.tag]#Nginx# |[.tag]#Go (docker API) - Bash – Python - Angular# | \
 |[.tag]#Terraform# |[.tag]#Cloud provider - Scaleway# |
 
 // CMRP/SELFONE
@@ -150,20 +138,18 @@
 :exp7-period-label: Period
 :exp7-period-value: icon:calendar[] `2016` - icon:calendar-check-o[] `2017`
 :exp7-desc-label: *Developer / Project Management Description:*
-:exp7-desc-content: |
-* Developed native Android mobile applications (for Selfone and Crédit Agricole).
-* Developed and deployed websites and WordPress CMS.
-* Understood client needs / Wrote functional and technical specifications.
-* Participated in the adoption of agile methodologies within the company / Managed teams and developers.
-* Provided remote and on-site technical interventions.
-* Provided hotline support for IP Telephony, Servers, infrastructure, and ISP domains.
-* Developed bash scripts to automate remote session restarts via telnet.
+:exp7-desc-content: * Developed native Android mobile applications (for Selfone and Crédit Agricole). \
+* Developed and deployed websites and WordPress CMS. \
+* Understood client needs / Wrote functional and technical specifications. \
+* Participated in the adoption of agile methodologies within the company / Managed teams and developers. \
+* Provided remote and on-site technical interventions. \
+* Provided hotline support for IP Telephony, Servers, infrastructure, and ISP domains. \
+* Developed bash scripts to automate remote session restarts via telnet. \
 * Physically and logically installed servers / Virtualized client machines.
 :exp7-tech-label: *Technologies - Roles - Languages:*
-:exp7-tech-rows:
-|[.tag]#Help Desk# |[.tag]#Corporate Networking# |
-|[.tag]#Technical Interventions# |[.tag]#Android - Java – Bash - PHP - HTML - CSS# |
-|[.tag]#Technical Hotline# |[.tag]#Telnet# |
+:exp7-tech-rows: |[.tag]#Help Desk# |[.tag]#Corporate Networking# | \
+|[.tag]#Technical Interventions# |[.tag]#Android - Java – Bash - PHP - HTML - CSS# | \
+|[.tag]#Technical Hotline# |[.tag]#Telnet# | \
 |[.tag]#Proxmox# |[.tag]#PHP 7# |
 
 // TEAM FANTASY
@@ -171,12 +157,10 @@
 :exp8-period-label: Period
 :exp8-period-value: icon:calendar[] `2014` - icon:calendar-check-o[] `2015`
 :exp8-desc-label: *Description and Responsibilities:*
-:exp8-desc-content: |
-* Administered, managed, and led a section of 300 members within a multi-gaming association of 2000 people.
+:exp8-desc-content: * Administered, managed, and led a section of 300 members within a multi-gaming association of 2000 people. \
 * Created the website.
 :exp8-tech-label: *Technologies and Skills:*
-:exp8-tech-rows:
-|[.tag]#Team Management# |[.tag]#Web Development# |
+:exp8-tech-rows: |[.tag]#Team Management# |[.tag]#Web Development# | \
 |[.tag]#Community management# |[.tag]#Administration# |
 
 // ---- Education & Training ----
