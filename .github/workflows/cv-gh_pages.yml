@@ -38,7 +38,7 @@ jobs:
         run: |
           cp src/index.html dist/index.html
           cp src/fr/css/custom.css dist/cv/css/custom.css
-          cp src/css/custom.css dist/en/css/custom.css
+          cp src/en/css/custom.css dist/en/css/custom.css
       
       - name: Generate French HTML
         uses: tonynv/asciidoctor-action@master
