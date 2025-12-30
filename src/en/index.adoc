@@ -34,11 +34,10 @@
 ++++
 <div class="cv-header">
   <div class="language-switcher">
-    <a href="../cv/" title="Version Française">🇫🇷</a>
+    <a href="../cv/" title="Version Française">FR</a>
   </div>
   <h1>ROY BAPTISTE</h1>
   <h2>EXPERT DEVOPS ENGINEER - OBSERVABILITY ADMIN</h2>
-  <div class="cv-contact">34 rue Landreloup - Orléans | roy.baptiste45@gmail.com <a href="https://www.linkedin.com/in/roy-baptiste/" target="_blank">roy-baptiste</a> | Driving License</div>
 </div>
 ++++
 
@@ -58,7 +57,7 @@ icon:twitter[] https://twitter.com/BaptisteRoy37[@BaptisteRoy37, role="external"
 
 icon:linkedin[] https://www.linkedin.com/in/roy-baptiste/[Linkedin Profile, role="external", window="_blank"] 
 
-|Location |10 passage Contreau Le Mans
+|Location |34 rue Landreloup Orléans
 
 |Phone |+33(0)6 63 15 30 15
 |===

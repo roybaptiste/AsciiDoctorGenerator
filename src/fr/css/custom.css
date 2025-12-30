@@ -375,8 +375,11 @@ h1#hidden-title,
     top: 15px;
     right: 20px;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .language-switcher a {
     text-decoration: none;
+    color: #8B4C9F;
+    font-weight: bold;
 } 
